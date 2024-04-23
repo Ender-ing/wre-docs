@@ -35,7 +35,7 @@ You may also access strings from the global `.locale` file (served at `resources
 
 ### Complex Language Expressions
 
-In cases in which you may need to inject text into a language expression, you may make use of expression variables:
+In cases in which you may need to inject text into a *language expression*, you may make use of expression variables:
 
 ```xml
 <text-button>{{mystring}['USERNAME']}</text-button>
@@ -54,4 +54,26 @@ In cases in which you may need to inject text into a language expression, you ma
         "base": "$1, $2!",
     }
 }
+```
+
+## Using Language Expressions outside of `.display` files
+
+You may also use a *language expression* outside of the contents of a `.display` file. (Mostly used inside the global `index.html` file):
+
+```html
+<div id="my-elm">
+    <h1 locale-content="{{mystring}}">
+        <!-- The value of "mystring" will be injected here -->
+    </h1>
+    <h1 locale-content="{{$mystring2}}">
+        <!-- The value of "$mystring2" will be injected here -->
+    </h1>
+</div>
+<script>
+    let myElm = document.getElementById("my-elm");
+    // You may inport the "localiseInject" function from the "/src/requests/language/inject.jsx" file
+    localiseInject(myElm).then(() => {
+        // This code should run after the contents of "myElm" have been localised
+    });
+</script>
 ```
