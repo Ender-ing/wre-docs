@@ -1,6 +1,6 @@
 # Localisation (technical)
 
-> last update: 23st April, 2024
+> last update: 23rd April, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, are available in English, Arabic, and Hebrew. The strings for these languages are saved in the directory of the `.display` index file inside JSON files with the extension `.locale`. (`/ar.locale`, `/en.locale`, and `/he.locale`)
 
@@ -77,3 +77,9 @@ You may also use a *language expression* outside of the contents of a `.display`
     });
 </script>
 ```
+
+## Language detection
+
+The source file of a language expression is determined by the value of the `LocalStorage` item `locale`. (`en`, `ar`, or `he`)
+
+The value of the `locale` item is either set by the intended UI language selection section, or it is set automatically according to the value of the [`navigator.languages` object](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages)!
