@@ -80,6 +80,6 @@ You may also use a *language expression* outside of the contents of a `.display`
 
 ## Language detection
 
-The source file of a language expression is determined by the value of the `LocalStorage` item `locale`. (`en`, `ar`, or `he`)
+The source file of a language expression is determined by the value of the `locale` cookie. (`en`, `ar`, or `he`)
 
-The value of the `locale` item is either set by the intended UI language selection section, or it is set automatically according to the value of the [`navigator.languages` object](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages)!
+The value of the `locale` cookie is either set by the intended UI language selection section, or it is set automatically according to the value of the [`navigator.languages` object](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages)!
