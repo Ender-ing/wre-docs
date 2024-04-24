@@ -18,6 +18,16 @@ All custom components in a `.display` file start with the `x-` prefix.
 
 Elements can have *augments* that are added to them on injection. Augments are any arguments provided after the second argument in the `window.addComponentToList` function. Currently, the only augments are *class names* - any `<string>` - and *runtime functions* - any `<function>`.
 
+### Augments outside of `.display` files
+
+In order to use *augments* on elements used outside of `.display` files, you may use the `augmentInject` function!
+
+```javascript
+// You may inport the "augmentInject" function from the "/src/requests/process.jsx" file
+augmentInject(ELEMENT, "DISPLAY-TAG");
+// "DISPLAY-TAG" would be the tag that would have been used to describe the element inside .display files
+```
+
 ## Defining Components (example)
 
 ```javascript
