@@ -32,8 +32,9 @@ The manifest file needs to include the following values:
 Each pathname that is supposed to serve content needs to have the following files:
 
 ```txt
-index.display (content UI elements)
-ar.locale (language strings for Arabic)
-en.locale (language strings for English)
-he.locale (language strings for Hebrew)
+pathname
+-- index.display (content UI elements)
+-- ar.locale (language strings for Arabic)
+-- en.locale (language strings for English)
+-- he.locale (language strings for Hebrew)
 ```
