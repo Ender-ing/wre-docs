@@ -24,6 +24,8 @@ Inside the `.display` file, you can use a *language expression* to include strin
 }
 ```
 
+> Note that *language expressions* are recursive - meaning you can use a *language expression* inside a *language expression*'s value!
+
 ### Global Language Expressions
 
 You may also access strings from the global `.locale` file (served at `resources` -> `/web/client/global-locale/..`) by adding the `$` prefix to the id of the *language expression*:
