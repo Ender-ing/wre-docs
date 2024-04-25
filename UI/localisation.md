@@ -83,3 +83,5 @@ You may also use a *language expression* outside of the contents of a `.display`
 The source file of a language expression is determined by the value of the `locale` cookie. (`en`, `ar`, or `he`)
 
 The value of the `locale` cookie is either set by the intended UI language selection section, or it is set automatically according to the value of the [`navigator.languages` object](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages)!
+
+> Note that if a hash with a valid `locale` value is present in the URL, it will be used instead of the `locale` cookie. This is done just to make it possible for search engines to discover pages in different languages!
