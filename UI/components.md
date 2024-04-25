@@ -1,6 +1,6 @@
 # Components (technical)
 
-> last update: 21st April, 2024
+> last update: 24st April, 2024
 
 ## Loading components
 
