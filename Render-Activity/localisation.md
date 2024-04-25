@@ -33,6 +33,16 @@ You may also access strings from the global `.locale` file (served at `resources
 <text-button>{{$my.string2}}</text-button>
 ```
 
+### Fallback Language Expressions
+
+You may access strings from the global `.locale` file as a fallback to the page's `.locale` file contents by adding the `?` prefix to the id of the *language expression*:
+
+```xml
+<text-button>{{?string1}}</text-button>
+<text-button>{{?my.string2}}</text-button>
+<!-- If these json paths aren't defined in the page's `.locale` file, then the value of these json paths in the global `.locale` file will be provided as a fallback! -->
+```
+
 ### Complex Language Expressions
 
 In cases in which you may need to inject text into a *language expression*, you may make use of expression variables:
@@ -74,6 +84,11 @@ You may also use a *language expression* outside of the contents of a `.display`
     // You may inport the "localiseInject" function from the "/src/requests/language/inject.jsx" file
     localiseInject(myElm).then(() => {
         // This code should run after the contents of "myElm" have been localised
+    });
+    // You may import the "localiseText" function from the "src/requests/language/inject.jsx" file
+    localiseText(myText).then((value) => {
+        // This should be a localised value of the variable myText
+        value;
     });
 </script>
 ```
