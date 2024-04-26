@@ -1,6 +1,6 @@
 # Setup (technical)
 
-> last update: 23rd April, 2024
+> last update: 27rd April, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, use shared code to render content. To make sure a subdomain is fully setup, run the `update-c` command in the server terminal to make sure all needed files have been updated in each subdomain's directory.
 
@@ -8,22 +8,29 @@ In addition to these shared files, each subdomain needs its custom files for the
 
 ## Branding
 
-Each subdomain root directory needs to include a `brand` folder that contains all needed visual elements used within the rendering activity:
+Each subdomain root directory needs to have its very own folder in the [`/brands/` directory](https://github.com/Ender-ing/render-activity/tree/main/brands). That folder must include a normal SVG logo, a maskable SVG logo, and a `brand.json` file.
 
 ```txt
-brand
--- launch-logo.svg
--- favicon.ico
--- brand.manifest
+subdomain-brand
+-- logo.svg
+-- maskable.svg
+-- brand.json
 ```
 
-### `brand.manifest`
+These files will be used to generate all the needed branding assets on the website!
+
+> You may check the [`TEMPLATE` directory](https://github.com/Ender-ing/render-activity/tree/main/brands/TEMPLATE) for an up-to-date example of a brand generative directory
+
+### `brand.json`
 
 The manifest file needs to include the following values:
 
 ```json
 {
-    "name": "<SERVICE_NAME>"
+    "name": {
+        "long": "<LONG-NAME>",
+        "short": "<SHORT-NAME>"
+    }
 }
 ```
 
