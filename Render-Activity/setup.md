@@ -31,9 +31,14 @@ The manifest file needs to include the following values:
         "long": "<LONG-NAME>",
         "short": "<SHORT-NAME>"
     },
-    "version": "0.0.0" // {1}.{2}.{3} =>
+    "version": "0.0.0", // {1}.{2}.{3} =>
     // {1}, {2} -> can change when a code-breaking change occurs
     // {3} -> can change when small changes are made
+    "web": {
+        "host": "<HOST-URL>"
+        // The host URL that will use these files!
+        // Example: sub.example.com
+    }
 }
 ```
 
