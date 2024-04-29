@@ -1,6 +1,6 @@
 # Search Engine Optimisation
 
-> last update: 25st April, 2024
+> last update: 29st April, 2024
 
 description
 
@@ -45,7 +45,7 @@ Each page has a title in all supported languages. If the page does not have a `_
 In addition, the value of the *page title* in the final output will be modified. If it's not the same as the global value, the global value will be appended to it as follows:
 
 ```javascript
-`${localTitle} | ${globalTitle}`
+`${localTitle} | <SERVICE-TITLE>`
 ```
 
 Final output:
