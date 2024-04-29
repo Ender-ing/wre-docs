@@ -1,10 +1,10 @@
 # Components (technical)
 
-> last update: 24st April, 2024
+> last update: 29th April, 2024
 
 ## Loading components
 
-All the web clients, the ones hosted on the `ender.ing` domain, make use of one library to load *Material Design Web Components*. This library (`material-design-web-solidjs`) only checks what components are used in a `.display` file, and it starts loading files related to the used components.
+All the web clients, the ones hosted on the `ender.ing` domain, make use of the same two *Material Design Web Components* import files. One, `quick.js`, loads first-print components, and the other, `general.js`, loads the rest of the components.
 
 ## Naming
 

@@ -1,6 +1,6 @@
 # Launch Activity (technical)
 
-> last update: 21st April, 2024
+> last update: 29th April, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, make use of one universal *launch activity*. The *launch activity* is meant to hide the page content while initial display files (like fonts, colour schemes, etc.) are being loaded on the first load of the page (and on reloads). The goal of the *launch activity* is to hide layout shifts and make the web clients more appealing.
 
@@ -20,7 +20,7 @@ A loading bar that is meant to indicate an undetermined loading process.
 
 ### Resource Tracking
 
-The *launch activity* waits for resources to trigger the `document.documentElement.resourceLoaded` function. This function is meant to inform the `material-design-web-solidjs` library that a resource (JavaScript or a StyleSheet) has been loaded successfully. When the number of loaded resources reaches or exceeds the value of `document.documentElement.initialResourceCount`, the `display` value of the content (`#content-activity`) will be set to `null`, and the content will be rendered. Right after the content is rendered, the *launch activity*'s (`#launch-activity`) display value will be set to `none`, meaning it will be only hidden.
+The *launch activity* waits for resources to trigger the `document.documentElement.resourceLoaded` function. This function is meant to inform the *loading activity* that a resource (JavaScript or a StyleSheet) has been loaded successfully. When the number of loaded resources reaches or exceeds the value of `document.documentElement.initialResourceCount`, the `display` value of the content (`#content-activity`) will be set to `null`, the *launch activity*'s (`#launch-activity`) display value will be set to `none`, meaning it will be only hidden, and the content will be rendered in.
 
 ### Font tracking
 
