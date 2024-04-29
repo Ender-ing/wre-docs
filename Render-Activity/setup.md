@@ -8,20 +8,20 @@ In addition to these shared files, each subdomain needs its custom files for the
 
 ## Branding and versioning
 
-Each subdomain root directory needs to have its very own folder in the [`/roots/` directory](https://github.com/Ender-ing/render-activity/tree/main/roots). That folder must include a normal SVG logo, a maskable SVG logo, and an `info.json` file.
+Each subdomain root directory needs to have its very own folder in the [`ROOTS_PATH` directory](https://github.com/Ender-ing/render-activity/blob/main/BUILD.env). That folder must include a normal SVG logo, a maskable SVG logo, and a `gen.info.json` file.
 
 ```txt
 subdomain-root
--- logo.svg
--- maskable.svg
--- info.json
+-- gen.logo.svg
+-- gen.maskable.svg
+-- gen.info.json
 ```
 
 These files will be used to generate all the needed custom assets for said subdomain on the website!
 
-> You may check the [`TEMPLATE` directory](https://github.com/Ender-ing/render-activity/tree/main/roots/TEMPLATE) for an up-to-date example of a root generative directory
+> You may check the [`TEMPLATE` directory](https://github.com/Ender-ing/render-activity/tree/main/TEMPLATE) for an up-to-date example of a root generative directory
 
-### `info.json`
+### `gen.info.json`
 
 The manifest file needs to include the following values:
 
