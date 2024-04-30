@@ -36,8 +36,21 @@ The manifest file needs to include the following values:
     // {3} -> can change when small changes are made
     "web": {
         "host": "<HOST-URL>"
-        // The host URL that will use these files!
+        // The host URL that will serve these files!
         // Example: sub.example.com
+    }
+}
+```
+
+In addition to these values, there are optional properties:
+
+```json
+{
+    "web": {
+        "sitemap": {
+            "ignore": ["<FOLDER-1>", "<FOLDER-2>"]
+            // List of folders to exclude from sitemap
+        }
     }
 }
 ```
