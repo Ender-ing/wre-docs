@@ -55,6 +55,12 @@ You can use the `view` attribute on elements assigned as a *group slot* to make 
 </div>
 <div slot="group" view="sticky">
     <!-- This group will stick to the top of the page on scroll! -->
+    <!-- Note that the sticky view attribute will be ignored if the
+         screen width does not allow for a double-pane view! (If the
+         display is a medium and <x-layout> has the attribute
+         view=collapse, the screen will be considered a one-pane view)
+         Note that the actually number of existing groups does not affect
+         the status of a view as a double or single pane view! -->
 </div>
 <div slot="group" view="static sticky" style="width: 200px;">
     <!-- You can use both values at the same time! -->
