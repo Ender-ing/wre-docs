@@ -25,3 +25,7 @@ If the changes within the codebase only relate to server-side code, you may use 
 If the changes within the codebase affect client-side code (JavaScript, CSS, Display files, etc.), you may use the `web` command to fetch changes and purge the global cache.
 
 > If you believe that the client-side changes are not large, or are not important, you may just use the `get` command, without purging the global cache.
+
+## Note
+
+After the accounts system is completed, it is planned to provide staff with the ability to access the terminal and commit to GitHub using one account. For the time being, staff must use GitHub and htpasswd credentials!
