@@ -28,4 +28,4 @@ If the changes within the codebase affect client-side code (JavaScript, CSS, Dis
 
 ## Note
 
-After the accounts system is completed, it is planned to provide staff with the ability to access the terminal and commit to GitHub using one account. For the time being, staff must use GitHub and htpasswd credentials!
+After the accounts system is completed, it is planned to provide staff with the ability to access the terminal and commit to GitHub using one account. For the time being, staff must use GitHub and *htpasswd* credentials, and commands will become restricted according to the user's permissions!
