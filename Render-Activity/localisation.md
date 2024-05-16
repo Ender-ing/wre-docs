@@ -1,8 +1,10 @@
 # Localisation (technical)
 
-> last update: 25th April, 2024
+> last update: 16th May, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, are available in English, Arabic, and Hebrew. The strings for these languages are saved in the directory of the `.display` index file inside JSON files with the extension `.locale`. (`/ar.locale`, `/en.locale`, and `/he.locale`)
+
+> Note that `.locale` files are only used to generate files for web hosting, they are not accessible online!
 
 ## Language Expressions
 
@@ -70,30 +72,11 @@ In cases in which you may need to inject text into a *language expression*, you 
 
 ## Using Language Expressions outside of `.display` files
 
-You may also use a *language expression* outside of the contents of a `.display` file. (Mostly used inside the global `index.html` file):
+Only some files are checked for *language expression* outside of the contents of a `.display` file:
 
-```html
-<div id="my-elm">
-    <h1 locale-content="{{mystring}}">
-        <!-- The value of "mystring" will be injected here -->
-    </h1>
-    <h1 locale-content="{{$mystring2}}">
-        <!-- The value of "$mystring2" will be injected here -->
-    </h1>
-</div>
-<script>
-    let myElm = document.getElementById("my-elm");
-    // You may inport the "localiseInject" function from the "/src/requests/language/inject.jsx" file
-    localiseInject(myElm).then(() => {
-        // This code should run after the contents of "myElm" have been localised
-    });
-    // You may import the "localiseText" function from the "src/requests/language/inject.jsx" file
-    localiseText(myText).then((value) => {
-        // This should be a localised value of the variable myText
-        value;
-    });
-</script>
-```
+- main `index.php.html` file
+
+> In order to use *language expressions* outside of `.display` files, you need to update the `BUILD` command first!
 
 ## Language detection
 
@@ -101,4 +84,4 @@ The source file of a language expression is determined by the value of the `loca
 
 The value of the `locale` cookie is either set by the intended UI language selection section, or it is set automatically according to the value of the [`navigator.languages` object](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages)!
 
-> Note that if a hash with a valid `locale` value is present in the URL, it will be used instead of the `locale` cookie. This is done just to make it possible for search engines to discover pages in different languages!
+> Note that if a root directory with a valid `locale` value is present in the URL, it will be used instead of the `locale` cookie. This is done just to make it possible for search engines to discover pages in different languages!
