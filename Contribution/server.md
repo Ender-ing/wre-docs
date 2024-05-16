@@ -14,7 +14,7 @@ After the commit is accepted, you may use the server terminal to publish the cha
 
 After logging into the [server terminal](https://terminal.ender.ing/@secret/), you may use the most fitting command to publish changes:
 
-[![Server Terminal](./images/terminal.png)]
+![Server Terminal](./images/terminal.png)
 
 ### Server-side changes
 
