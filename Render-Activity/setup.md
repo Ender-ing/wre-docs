@@ -1,6 +1,6 @@
 # Setup (technical)
 
-> last update: 30th April, 2024
+> last update: 19th May, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, use shared code to render content. To make sure a subdomain is fully setup, run the `update-c` command in the server terminal to make sure all needed files have been updated in each subdomain's directory.
 
