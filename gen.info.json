@@ -3,7 +3,7 @@
         "long": "Ender Docs",
         "short": "Docs"
     },
-    "version": "0.0.0",
+    "version": "@@version",
     "web": {
         "host": "docs.ender.ing"
     }
