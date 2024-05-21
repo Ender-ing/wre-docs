@@ -144,7 +144,7 @@ All content meant to be served in user-friendly settings (e.g. website UI) falls
 
 - Content must be served in English, Arabic, and Hebrew. The contribution will not be accepted until served content is available in all languages! (*you may ask maintainers to fill in the missing languages for you when you open a pull request*)
 - Content language translations should be done by hand! **You are not allowed to use non-proofread machine-generated translations!**
-- Illustrations and design should follow the [material design guidelines](https://m3.material.io/)!
+- Illustrations and UI design should follow the [Material Design Guidelines](https://m3.material.io/)!
 
 > Documentation is not required to follow language-related content guidelines. It can be written only in English!
 
