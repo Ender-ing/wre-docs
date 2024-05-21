@@ -17,7 +17,7 @@ Here is a list of all projects, including their status and relevant resources:
 ### Website
 
 - Status: **In progress**
-- Website(s): <https://ender.ing>, <https://docs.ender.ing>, <https://resources.ender.ing>, <https://terminal.ender.ing>
+- Website(s): <https://ender.ing>, <https://docs.ender.ing>, <https://resources.ender.ing>, <https://test.ender.ing>, <https://terminal.ender.ing>
 - Description: Most of the website's resources are under this project, except for project-specific pages!
 - GitHub Projects:
   - [General Web UI](https://github.com/orgs/Ender-ing/projects/2): Tracking web client and UI progress
@@ -25,8 +25,9 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Repositories:
   - [/render-activity](https://github.com/Ender-ing/render-activity): Contains all files and commands used to generate final web files (*`BUILD` command and such*)
   - [/Docs](https://github.com/Ender-ing/Docs): Holds all documentation (*development and user documentation*)
-  - [/resources](https://github.com/Ender-ing/resources): Holds shared web resources (*resources subdomain*)
-  - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal, which is used to maintain the website!
+  - [/resources](https://github.com/Ender-ing/resources): Holds shared web resources (_**resources** subdomain_)
+  - [/web-tests](https://github.com/Ender-ing/web-tests): Holds example/test files related to the *render-activity* repository (_**test** subdomain_)
+  - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal, which is used to maintain the website! (_**terminal** subdomain_)
   - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all generative web files that have yet to be made public (the naming is a bit confusing - using an old name)
   - [/host](https://github.com/Ender-ing/host) (**private**): Used to keep track of web server file updates
 - Guidelines: -
