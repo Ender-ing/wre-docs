@@ -128,12 +128,11 @@ A style guide covers a set of instructions as to how to write code, comments, an
 
 Each project may use its own set of programming languages. Generally, each used language has its own style guide:
 
-***Empty list!***
-
 - [Markdown (.md) Style Guide](./code/markdown.md)
 - [HTML/CSS Style Guide](./code/web.md)
 - [JavaScript/PHP/C++ Style Guide](./code/programming-language.md)
 - [Batch/Bash Style Guide](./code/command.md)
+- [General Style Guide](./code/command.md) (*if none of the previous guides apply*)
 
 ## Content Guide
 

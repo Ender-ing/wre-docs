@@ -2,7 +2,7 @@
 
 > Last update: May 21st, 2024
 
-**This style guide is incomplete!**
+**((This style guide is incomplete!))**
 
 ## Tabs and spacing
 
