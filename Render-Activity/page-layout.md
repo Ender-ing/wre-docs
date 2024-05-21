@@ -1,6 +1,6 @@
 # Page Layout (technical)
 
-> last update: 1st May, 2024
+> Last update: May 1st, 2024
 
 Each `.display` file makes use of either an `<x-root>` element or an `<x-layout>` element to contain page content. You may only use an `<x-layout>` element to contain page content for pages meant for normal user experience, as the `<x-root>` element is used mainly for testing purposes.
 

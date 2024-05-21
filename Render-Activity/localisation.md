@@ -1,6 +1,6 @@
 # Localisation (technical)
 
-> last update: 16th May, 2024
+> Last update: May 16th, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, are available in English, Arabic, and Hebrew. The strings for these languages are saved in the directory of the `.display` index file inside JSON files with the extension `.locale`. (`/ar.locale`, `/en.locale`, and `/he.locale`)
 

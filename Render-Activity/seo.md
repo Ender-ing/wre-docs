@@ -1,6 +1,6 @@
 # Search Engine Optimisation
 
-> last update: 29th April, 2024
+> Last update: April 29th, 2024
 
 description
 

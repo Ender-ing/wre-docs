@@ -1,6 +1,6 @@
 # Launch Activity (technical)
 
-> last update: 29th April, 2024
+> Last update: April 29th, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, make use of one universal *launch activity*. The *launch activity* is meant to hide the page content while initial display files (like fonts, colour schemes, etc.) are being loaded on the first load of the page (and on reloads). The goal of the *launch activity* is to hide layout shifts and make the web clients more appealing.
 

@@ -1,4 +1,6 @@
-# Ender Certificates (draft 1 - April 20th, 2024)
+# Ender Certificates (draft 1)
+
+> Last update: April 20th, 2024
 
 All Ender services are built around one uniform accounts system (Ender Accounts), and Ender Accounts can be used in conjunction with other approved 3rd-party services. As such, the Accounts System must be built in a way that would make unauthorised actions impossible, with user-tight control, in addition to user-level individual protection and encryption. One way to keep up these standards, on the backend level, would be the use of a custom in-house CA, and require certificates to initiate API interactions.
 
