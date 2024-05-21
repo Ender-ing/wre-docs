@@ -133,6 +133,7 @@ Each project may use its own set of programming languages. Generally, each used 
 - [Markdown (.md) Style Guide](./code/markdown.md)
 - [HTML/CSS Style Guide](./code/web.md)
 - [JavaScript/PHP/C++ Style Guide](./code/programming-language.md)
+- [Batch/Bash Style Guide](./code/command.md)
 
 ## Content Guide
 
