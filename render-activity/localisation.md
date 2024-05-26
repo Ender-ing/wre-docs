@@ -32,7 +32,7 @@ Inside the `.display` file, you can use a *language expression* to include strin
 
 ### Global Language Expressions
 
-You may also access strings from the global `.locale` file (served at `resources` -> `/web/client/global-locale/..`) by adding the `$` prefix to the id of the *language expression*:
+You may also access strings from the global `.locale` file (stored in the [global locale folder](https://github.com/Ender-ing/render-activity/tree/main/global/locale)) by adding the `$` prefix to the id of the *language expression*:
 
 ```xml
 <text-button>{{$string1}}</text-button>
@@ -75,8 +75,6 @@ In cases in which you may need to inject text into a *language expression*, you 
 ### Language Expression Source
 
 Each *language expression* inherits its value according to the path ID definition in the corresponding `.locale` file within the same directory.
-
-Global *language expressions* are defined in the [global locale folder](https://github.com/Ender-ing/render-activity/tree/main/global/locale).
 
 You may also specify the value's language within the *language expression* itself:
 
