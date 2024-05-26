@@ -32,10 +32,10 @@ If the changes within the codebase affect client-side code (JavaScript, CSS, Dis
 
 By default, any changes to the codebase of a service/root directory will trigger a version increment.
 
-If you wish to generate a new build without automatically updating the version of the codebase, you may use the `--no-update` flag:
+If you wish to generate a new build without automatically updating the version of the codebase, you may use the `--no-auto-update` flag:
 
 ```batch
-BUILD.bat --no-update
+BUILD.bat --no-auto-update
 ```
 
 If you wish to manually update all global versions (an example use case would be when a non-local shared resource is updated), you may use the following flags:
