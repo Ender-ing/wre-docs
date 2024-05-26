@@ -82,8 +82,8 @@ You may also specify the value's language within the *language expression* itsel
 
 ```xml
 <text-button>{{?ar:my.string}}</text-button>
-<text-button>{{$en:my.other.string}}</text-button>
-<text-button>{{he:my.other.other.string}}</text-button>
+<text-button>{{$en:my.string}}</text-button>
+<text-button>{{he:my.string}}</text-button>
 <!-- Notice that you can freely specifiy the source language in all expression types! -->
 ```
 
