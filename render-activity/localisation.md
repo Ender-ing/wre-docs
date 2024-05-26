@@ -74,7 +74,7 @@ In cases in which you may need to inject text into a *language expression*, you 
 
 ### Language Expression Source
 
-Each *language expression* inherits its value according to the path ID definition in corresponding `.locale` file within the same directory.
+Each *language expression* inherits its value according to the path ID definition in the corresponding `.locale` file within the same directory.
 
 Global *language expressions* are defined in the [global locale folder](https://github.com/Ender-ing/render-activity/tree/main/global/locale).
 
