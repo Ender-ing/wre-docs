@@ -1,6 +1,6 @@
 # Localisation (technical)
 
-> Last update: May 16th, 2024
+> Last update: May 25th, 2024
 
 All the web clients, the ones hosted on the `ender.ing` domain, are available in English, Arabic, and Hebrew. The strings for these languages are saved in the directory of the `.display` index file inside JSON files with the extension `.locale`. (`/ar.locale`, `/en.locale`, and `/he.locale`)
 
@@ -27,6 +27,8 @@ Inside the `.display` file, you can use a *language expression* to include strin
 ```
 
 > Note that *language expressions* are recursive - meaning you can use a *language expression* inside a *language expression*'s value!
+>
+> In addition, *language expressions* CANNOT contain whitespace characters!
 
 ### Global Language Expressions
 
@@ -68,6 +70,21 @@ In cases in which you may need to inject text into a *language expression*, you 
         "base": "$1, $2!",
     }
 }
+```
+
+### Language Expression Source
+
+Each *language expression* inherits its value according to the path ID definition in corresponding `.locale` file within the same directory.
+
+Global *language expressions* are defined in the [global locale folder](https://github.com/Ender-ing/render-activity/tree/main/global/locale).
+
+You may also specify the value's language within the *language expression* itself:
+
+```xml
+<text-button>{{?ar:my.string}}</text-button>
+<text-button>{{$en:my.other.string}}</text-button>
+<text-button>{{he:my.other.other.string}}</text-button>
+<!-- Notice that you can freely specifiy the source language in all expression types! -->
 ```
 
 ## Using Language Expressions outside of `.display` files
