@@ -4,7 +4,7 @@
 
 ## Tabs and spacing
 
-The use of the normal tab (*also known as a hard tab*) character (`\t`) is not allowed! You may **two** whitespace characters instead of tabs to space code!
+The use of the normal tab (*also known as a hard tab*) character (`\t`) is not allowed! You may use **two** whitespace characters instead of tabs to space code!
 
 
 ```md
