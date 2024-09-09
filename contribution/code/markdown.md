@@ -1,6 +1,6 @@
 # Markdown Style Guide
 
-> Last update: May 21st, 2024
+> Last update: Sep 9th, 2024
 
 ## Tabs and spacing
 
