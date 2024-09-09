@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-> Last update: May 21st, 2024
+> Last update: Sep 9th, 2024
 
 In order to contribute to any project, you may make a pull request to its related repositories. Regardless of the contributor's status (member or not), a pull request must fulfill the following conditions in order to be accepted:
 
@@ -13,6 +13,15 @@ In order to contribute to any project, you may make a pull request to its relate
 ## Projects
 
 Here is a list of all projects, including their status and relevant resources:
+
+### Omniarium
+
+- Status: **In progress**
+- Website(s): <https://omni.ender.ing>
+- Description: A programming language designed for a specialised transpiler
+- GitHub Projects: -
+- GitHub Repositories: -
+  - [/omni](https://github.com/Ender-ing/omni): Contains all planning files for Omniarium
 
 ### Website
 
@@ -30,7 +39,6 @@ Here is a list of all projects, including their status and relevant resources:
   - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal, which is used to maintain the website! (_**terminal** subdomain_)
   - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all generative web files that have yet to be made public (the naming is a bit confusing - using an old name)
   - [/host](https://github.com/Ender-ing/host) (**private**): Used to keep track of web server file updates
-- Guidelines: -
 
 ### Accounts System
 
@@ -40,7 +48,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Accounts System](https://github.com/orgs/Ender-ing/projects/1): Tracking PKI and accounts system progress
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Links Manager
 
@@ -49,7 +56,6 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A links management system used for link redirects, and external redirect security checks!
 - GitHub Projects: -
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Chats
 
@@ -59,7 +65,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Chats](https://github.com/orgs/Ender-ing/projects/8): Features and progress tracking
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Mail Client
 
@@ -69,7 +74,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Web Mail](https://github.com/orgs/Ender-ing/projects/3): Features and progress tracking
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Sites Manager
 
@@ -79,7 +83,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Files Editor
 
@@ -89,7 +92,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [NameFiles/FTP Editor](https://github.com/orgs/Ender-ing/projects/4): Features and progress tracking
 - GitHub Repositories: -
-- Guidelines: -
 
 ### Service Groups
 
@@ -99,16 +101,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Crews](https://github.com/orgs/Ender-ing/projects/5): Features and progress tracking
 - GitHub Repositories: -
-- Guidelines: -
-
-### Omniarium
-
-- Status: **Pending**
-- Website(s): <https://omni.ender.ing>
-- Description: A programming language designed for a specialised transpiler
-- GitHub Projects: -
-- GitHub Repositories: -
-- Guidelines: -
 
 <!--
 ### ?
@@ -120,7 +112,6 @@ Here is a list of all projects, including their status and relevant resources:
   - [Name](?): Purpose
 - GitHub Repositories:
   - [/Name](?): Purpose
-- Guidelines: -
 -->
 
 ## Style Guides
