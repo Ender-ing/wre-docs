@@ -10,8 +10,8 @@ The use of the normal tab (*also known as a hard tab*) character (`\t`) is not a
 ```md
 - **What spacing is allowed?**
 	- This is not allowed! (used \t)
-  - This is not allowed!
-    - This is correct! (used 4 whitespace characters)
+    - This is not allowed!
+  - This is correct! (used 2 whitespace characters)
 ```
 
 ## File start
