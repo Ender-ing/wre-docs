@@ -1,9 +1,0 @@
-{
-    "name": {
-        "long": "Ender Docs",
-        "short": "Docs"
-    },
-    "web": {
-        "host": "docs.ender.ing"
-    }
-}

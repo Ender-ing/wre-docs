@@ -1,0 +1,19 @@
+endering:
+  label: Endering
+  permalink: /endering
+  description: Ender.ing organisation updates!
+
+personal:
+  label: Personal
+  permalink: /personal
+  description: Personal staff updates!
+
+casual:
+  label: Casual
+  permalink: /casual
+  description: Casual updates!
+
+important:
+  label: Important
+  permalink: /important
+  description: Important updates!
