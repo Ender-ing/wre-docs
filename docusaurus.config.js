@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Ender Documentation',
   tagline: 'Documentation for all Ender.ing projects!',
-  favicon: 'img/favicon.ico',
+  favicon: 'brand/icons/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.ender.ing',
@@ -77,7 +77,7 @@ const config = {
         title: 'Documentation',
         logo: {
           alt: 'Ender.ing Logo',
-          src: 'img/logo.svg',
+          src: 'brand/icons/logo.svg',
         },
         items: [
           {
