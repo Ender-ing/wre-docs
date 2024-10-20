@@ -1,5 +1,10 @@
 # Website
 
+> [!NOTE]
+> This repository is excluded from the typical subdomain building process!
+>
+> It has its own building script!
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
