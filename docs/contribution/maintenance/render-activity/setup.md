@@ -1,7 +1,7 @@
 # Setup (technical)
 
 Most of the web clients (*subdomains*), the ones hosted on the `ender.ing` domain, use shared code to render content.
-To make sure all subdomains are updated, run the [`get` command](./../contribution/server/server.md#server-terminal)
+To make sure all subdomains are updated, run the [`get` command](./../server.md#server-terminal)
 in the server terminal to make sure all needed files have been updated in each subdomain's directory.
 
 In addition to these shared files, each subdomain needs its custom files for the rendering activity to work properly!
