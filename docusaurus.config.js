@@ -80,6 +80,12 @@ const config = {
           src: 'brand/icons/logo.svg',
         },
         items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'contributionSidebar',
+            position: 'left',
+            label: 'Contribution',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Ender-ing',

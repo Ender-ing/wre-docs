@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Contribution Guidelines
 
 In order to contribute to any project, you may make a pull request to its related repositories. Regardless of the

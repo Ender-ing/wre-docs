@@ -6,7 +6,7 @@ a ready-to-host version of the codebase.
 
 :::note
 This documentation is meant to instruct individuals with access to the [server terminal](https://terminal.ender.ing/)
-and [private repositories](./../contribution.md#projects)!
+and [private repositories](./../intro.md#projects)!
 :::
 
 After the output of this command is generated, you should navigate to the output directory, and commit your changes to
