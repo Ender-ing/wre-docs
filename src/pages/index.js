@@ -17,7 +17,11 @@ export default function Home() {
 
             <Head>
                 <html lang="en" dir="ltr" translate="no" />
+                <link rel="preconnect" href="https://resources.ender.ing" />
                 <link rel="preconnect" href="https://resources.ender.ing" crossorigin />
+                <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
             </Head>
             <h1>This is the temporary main docs page!</h1>
             <br/>

@@ -86,6 +86,24 @@ const config = {
       },
     }),
 
+  plugins: [
+    function githubProfilePlugin(context, options) {
+      return {
+        name: 'resize-profile-plugin',
+        async postBuild({ siteConfig }) {
+          const { downloadAndResizeGitHubImage } = require('./github/images.js');
+
+          await downloadAndResizeGitHubImage(
+            '0xENDER',
+            './build/assets/images/0xENDER.png', // Save to static folder
+            112,
+            112
+          );
+        },
+      };
+    },
+  ],
+
   scripts: [
     {
       src: '/assets/js/colors.js',
@@ -101,6 +119,10 @@ const config = {
     },
     {
       src: 'https://resources.ender.ing/web/client/@material/x-layouts.js',
+      async: true,
+    },
+    {
+      src: 'https://resources.ender.ing/web/client/@vite/tracking.js',
       async: true,
     },
   ],
