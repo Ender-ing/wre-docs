@@ -31,11 +31,16 @@
 
 
 /* hidden elements list */
-/*.navbar, .footer {
+.navbar, .footer {
     height: 0px;
     min-height: 0px;
     max-height: 0px;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-}*/
+}
+
+.theme-doc-sidebar-container {
+    border-right: unset !important;
+    margin-top: unset !important;
+}

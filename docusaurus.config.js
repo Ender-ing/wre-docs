@@ -73,69 +73,54 @@ const config = {
     ({
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'Documentation',
-        logo: {
-          alt: 'Ender.ing Logo',
-          src: 'brand/icons/logo.svg',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'contributionSidebar',
-            position: 'left',
-            label: 'Contribution',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/Ender-ing',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Projects',
-            items: [
-              {
-                label: 'Omniarium',
-                to: '/docs/omni/intro',
-              },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
-              {
-                label: '???',
-                to: '/',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Ender-ing',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ender-ing. Built with Docusaurus.`,
+      navbar: {},
+      footer: {},
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  scripts: [
+    {
+      src: '/assets/js/colors.js',
+      async: true,
+    },
+    {
+      src: 'https://resources.ender.ing/web/client/@material/docs.js',
+      async: true,
+    },
+    {
+      src: 'https://resources.ender.ing/web/client/material/colors.js',
+      async: true,
+    },
+    {
+      src: 'https://resources.ender.ing/web/client/@material/x-layouts.js',
+      async: true,
+    },
+  ],
+  stylesheets: [
+    {
+      href: 'https://resources.ender.ing/web/client/material/colors.css',
+    },
+    {
+      href: 'https://resources.ender.ing/web/client/material/theme.css',
+    },
+    {
+      href: 'https://resources.ender.ing/web/client/material/layouts.css',
+    },
+    {
+      href: 'https://resources.ender.ing/web/client/material/font.css',
+    },
+    {
+      href: 'https://resources.ender.ing/web/client/material/icons.css',
+    },
+  ],
 };
 
 export default config;
