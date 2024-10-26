@@ -66,4 +66,5 @@
 .theme-doc-markdown a:not(.hash-link),
 .markdown a:not(.hash-link) {
     text-decoration: underline;
+    color: var(--ifm-link-color);
 }
