@@ -30,7 +30,7 @@
 }
 
 
-/* hidden elements list */
+/* Hide footer and navigation bar! */
 .navbar, .footer {
     height: 0px;
     min-height: 0px;
@@ -40,10 +40,13 @@
     overflow: hidden;
 }
 
+/* Change sidebar style */
 .theme-doc-sidebar-container {
     border-right: unset !important;
     margin-top: unset !important;
 }
+
+/* Sidebar logo */
 
 .sidebar-logo-item {
     position: absolute;
@@ -57,4 +60,10 @@
 .sidebar-logo-item > text {
     line-height: 32px;
     padding: 0px 10px;
+}
+
+/* Add an underline to markdown links */
+.theme-doc-markdown a,
+.markdown a {
+    text-decoration: underline;
 }
