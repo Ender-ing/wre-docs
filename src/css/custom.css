@@ -44,3 +44,17 @@
     border-right: unset !important;
     margin-top: unset !important;
 }
+
+.sidebar-logo-item {
+    position: absolute;
+    display: flex;
+    top: 14px;
+}
+.sidebar-logo-item > img {
+    width: 32px;
+    height: 32px;
+}
+.sidebar-logo-item > text {
+    line-height: 32px;
+    padding: 0px 10px;
+}
