@@ -64,6 +64,6 @@
 
 /* Add an underline to markdown links */
 .theme-doc-markdown a,
-.markdown a {
+.markdown a:not(.hash-link) {
     text-decoration: underline;
 }
