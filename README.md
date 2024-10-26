@@ -7,6 +7,13 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+> [!NOTE]
+> You may use the following command to swizzle elements:
+>
+> ```bash
+> npx docusaurus swizzle @docusaurus/theme-classic ELEMENT
+> ```
+
 ### Installation
 
 ```
