@@ -25,10 +25,10 @@ export default function Home() {
             </Head>
             <h1>This is the temporary main docs page!</h1>
             <br/>
-            <md-elevated-button href="/docs/old/intro">Old Docs</md-elevated-button>
-            <md-elevated-button href="/docs/omni/intro">Omniarium Docs</md-elevated-button>
-            <md-elevated-button href="/docs/omni-std1/intro">Omniarium Standard Edition 1.0 Docs</md-elevated-button>
-            <md-elevated-button href="/blog">Blog</md-elevated-button>
+            <md-elevated-button href="/docs/old/intro">Old Docs</md-elevated-button> <br/>
+            <md-elevated-button href="/docs/contribution/intro">Contribution Docs</md-elevated-button> <br/>
+            <md-elevated-button href="/docs/omni-std1/intro">Omniarium Standard Edition 1.0 Docs</md-elevated-button> <br/>
+            <md-elevated-button href="/blog">Blog</md-elevated-button> <br/>
         </Layout>
     );
 }
