@@ -13,7 +13,7 @@ export default function DocRootLayout({children}) {
       <BackToTopButton />
       <XLayout className={styles.docRoot}>
         {sidebar && (
-          <XLayoutGroup view="static sticky disappear">
+          <XLayoutGroup view="static sticky disappear-early">
             <XLayoutPane view="full">
               <DocRootLayoutSidebar
                 sidebar={sidebar.items}
@@ -24,7 +24,7 @@ export default function DocRootLayout({children}) {
           </XLayoutGroup>
         )}
         <XLayoutGroup>
-          <XLayoutPane view="full">
+          <XLayoutPane view="full" data-fix="width">
             <DocRootLayoutMain hiddenSidebarContainer={hiddenSidebarContainer}>
               {children}
             </DocRootLayoutMain>
