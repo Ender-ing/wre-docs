@@ -32,37 +32,3 @@ export default function Home() {
         </Layout>
     );
 }
-
-
-/*
-
-<x-layout view="collapse" title="פעילות פריסה" description="זהו עמוד עם פריסה בסיסית!">
-    <div slot="group" view="static sticky">
-        <div class="x-layout-float">
-            <h1>פעילות פריסה</h1><text>זהו עמוד עם פריסה בסיסית!</text>
-        </div>
-        <div class="x-layout-pane">
-            [pane content]
-        </div>
-        <div class="x-layout-pane">
-            [pane content]
-        </div>
-    </div>
-    <div slot="group">
-        <div view="full" class="x-layout-pane">
-            [pane content]
-        </div>
-        <div style="height: 400px;" class="x-layout-pane">
-            [pane content]
-        </div>
-    </div>
-</x-layout>
-
-<x-layout view="collapse">
-    <div slot="group">
-        <div view="full" class="x-layout-pane">
-            [pane content]
-        </div>
-    </div>
-</x-layout>
-*/
