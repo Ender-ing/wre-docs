@@ -1,4 +1,8 @@
-# Page Layout (technical)
+---
+sidebar_position: 2
+---
+
+# Page Layout (display files)
 
 Each `.display` file makes use of either an `<x-root>` element or an `<x-layout>` element to contain page content.
 You may only use an `<x-layout>` element to contain page content for pages meant for normal user experience, as
@@ -68,8 +72,14 @@ to the top of the page on scroll:
          Note that the actually number of existing groups does not affect
          the status of a view as a double or single pane view! -->
 </div>
+<div slot="group" view="disappear">
+    <!-- This group will disappear when the user's screen is a medium or smaller! -->
+</div>
+<div slot="group" view="disappear-early">
+    <!-- This group will disappear when the user's screen is not very large! -->
+</div>
 <div slot="group" view="static sticky" style="width: 200px;">
-    <!-- You can use both values at the same time! -->
+    <!-- You can use all these values at the same time! -->
 </div>
 ```
 

@@ -1,10 +1,19 @@
-# Components (technical)
+---
+sidebar_position: 4
+---
+
+# Components
 
 ## Loading components
 
 All the web clients, the ones hosted on the `ender.ing` domain, make use of the same two
 *Material Design Web Components* import files. One, `quick.js`, loads first-print components, and the other,
 `general.js`, loads the rest of the components.
+
+:::tip
+You may consult with the [`render-activity-1` test page](https://test.ender.ing/render-activity-1/) to see the
+supported Material elements in action!
+:::
 
 ## Naming
 
@@ -33,14 +42,24 @@ augmentInject(ELEMENT, "DISPLAY-TAG");
 // "DISPLAY-TAG" would be the tag that would have been used to describe the element inside .display files
 ```
 
-## Defining Components (example)
+## Defining Components
+
+You must make use of the `window.addComponentToList` function in order to enable the use of an element with a
+custom name within `.display` files:
 
 ```javascript
 window.addComponentToList("OLD-NAME", "NEW-NAME", "MY-CLASS", MY_FUNCTION);
-// This will define a component called "OLD-NAME" in `.display` files,
-// and this component will be injected as "NEW-NAME" in the HTML page.
-// Additionally, the class name "MY-CLASS" will be added to the injected
-// element, and the function saved in the variable "MY_FUNCTION" will
-// be run when the element is injected, and its input will be the injected
-// element.
+```
+
+The code above will define a component called `OLD-NAME` in `.display` files, and this component will be injected
+as `NEW-NAME` (*tag name*) in the HTML page.
+Additionally, the class name `MY-CLASS` will be added to the injected element, and the function saved in the
+variable `MY_FUNCTION` will be executed when the element is injected, and its input will be the injected element.
+
+A proper example of the function added to components would be as follows:
+
+```javascript
+function MY_FUNCTION (element) {
+    element; // You can do whatever you want with the injected element!
+};
 ```

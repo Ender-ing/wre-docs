@@ -1,4 +1,8 @@
-# Localisation (technical)
+---
+sidebar_position: 3
+---
+
+# Localisation
 
 All the web clients, the ones hosted on the `ender.ing` domain, are available in English, Arabic, and Hebrew. The
 strings for these languages are saved in the directory of the `.display` index file inside JSON files with the

@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Search Engine Optimisation
 
 Each of the hosted pages on the `ender.ing` domain has the following SEO optimisations:

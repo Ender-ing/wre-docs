@@ -1,4 +1,8 @@
-# Launch Activity (technical)
+---
+sidebar_position: 5
+---
+
+# Launch Activity
 
 All the web clients, the ones hosted on the `ender.ing` domain, make use of one universal *launch activity*.
 The *launch activity* is meant to hide the page content while initial display files (like fonts, colour schemes, etc.)
@@ -9,13 +13,8 @@ shifts and make the web clients more appealing.
 
 The *launch activity* consists of a few elements:
 
-### Launch Logo
-
-The logo of the service being used
-
-### Loading bar
-
-A loading bar that is meant to indicate an undetermined loading process.
+- **Launch Logo**: The logo of the service/subdomain being used!
+- **Loading bar**: A loading bar that is meant to indicate an undetermined loading process.
 
 ## How it works
 

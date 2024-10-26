@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Server Updates
 
 In order to apply your local changes to the server, you must first use the
@@ -7,6 +11,14 @@ a ready-to-host version of the codebase.
 :::note
 This documentation is meant to instruct individuals with access to the [server terminal](https://terminal.ender.ing/)
 and [private repositories](./../intro.md#projects)!
+:::
+
+:::info
+Currently, you actually need to manually collect all the repositories from GitHub one-by-one in order to build the
+codebase!
+
+In the future, a proper command that collects all the repositories automatically will be created!
+([Track progress](https://github.com/Ender-ing/render-activity/issues/2))
 :::
 
 After the output of this command is generated, you should navigate to the output directory, and commit your changes to
