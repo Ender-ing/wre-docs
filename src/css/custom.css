@@ -63,7 +63,7 @@
 }
 
 /* Add an underline to markdown links */
-.theme-doc-markdown a,
+.theme-doc-markdown a:not(.hash-link),
 .markdown a:not(.hash-link) {
     text-decoration: underline;
 }
