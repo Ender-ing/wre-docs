@@ -12,7 +12,7 @@ export default function BlogLayout(props) {
         <div className="row">
           <XLayout>
             <XLayoutGroup view="static sticky disappear-early">
-              <XLayoutPane view="full" data-fix="width">
+              <XLayoutPane data-fix="width">
                 <BlogSidebar sidebar={sidebar} />
               </XLayoutPane>
             </XLayoutGroup>

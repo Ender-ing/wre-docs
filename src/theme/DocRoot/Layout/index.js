@@ -14,7 +14,7 @@ export default function DocRootLayout({children}) {
       <XLayout className={styles.docRoot}>
         {sidebar && (
           <XLayoutGroup view="static sticky disappear-early">
-            <XLayoutPane view="full">
+            <XLayoutPane>
               <DocRootLayoutSidebar
                 sidebar={sidebar.items}
                 hiddenSidebarContainer={hiddenSidebarContainer}
