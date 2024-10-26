@@ -68,3 +68,8 @@
     text-decoration: underline;
     color: var(--ifm-link-color);
 }
+
+/* Fix pane content width */
+.x-layout-pane[data-fix="width"] > * {
+    min-width: 100%;
+}
