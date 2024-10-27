@@ -73,7 +73,7 @@ need to use, or to represent frequently-used element patterns.
 
 You may refer to the [Page Layout Documentation](./page-layout.md) for more info!
 
-### `<x-effect>` (***work in progress***, ***not used***, ***broken***)
+### ~~`<x-effect>`~~ (***work in progress***, ***not used***, ***broken***)
 
 :::danger
 Do NOT use this element! It's broken!
