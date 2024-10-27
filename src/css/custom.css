@@ -94,7 +94,13 @@
     width: fit-content;
     height: fit-content;
 }
-
-.next-navigation-wrapper-fix{
+.next-navigation-wrapper-fix,
+.prev-navigation-wrapper-fix {
+    height: 100%;
+}
+.next-navigation-wrapper-fix {
     margin-left: auto;
+}
+.prev-navigation-wrapper-fix {
+    margin-right: auto;
 }
