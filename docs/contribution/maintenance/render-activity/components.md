@@ -86,11 +86,11 @@ This element is used to contain Material effects within your element's boundarie
 The element you wish to apply the effects to must be marked with the `[slot="child"]` attribute!
 
 :::info
-The `<x-effect>` element's default CSS display value is `block`, and the default CSS overflow value is `hidden`!
+The `<x-effect>` element's default CSS display value is `block`!
 :::
 
 :::caution
-Changing the `<x-effect>` element's CSS *display* & *overflow* values could result in your effects being incorrectly
+Changing the `<x-effect>` element's CSS *display* value could result in your effects being incorrectly
 displayed, or them being leaked outside of the original child's boundaries!
 :::
 
