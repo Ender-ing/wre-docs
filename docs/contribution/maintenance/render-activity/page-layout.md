@@ -65,12 +65,6 @@ to the top of the page on scroll:
 </div>
 <div slot="group" view="sticky">
     <!-- This group will stick to the top of the page on scroll! -->
-    <!-- Note that the sticky view attribute will be ignored if the
-         screen width does not allow for a double-pane view! (If the
-         display is a medium and <x-layout> has the attribute
-         view=collapse, the screen will be considered a one-pane view)
-         Note that the actually number of existing groups does not affect
-         the status of a view as a double or single pane view! -->
 </div>
 <div slot="group" view="disappear">
     <!-- This group will disappear when the user's screen is a medium or smaller! -->
@@ -82,6 +76,15 @@ to the top of the page on scroll:
     <!-- You can use all these values at the same time! -->
 </div>
 ```
+
+:::note
+The *sticky* group `view` attribute will be ignored if the screen *width* does not allow for a double-pane view.
+:::
+
+:::info
+If the display is a medium, and `<x-layout>` has the attribute `[view=collapse]`, the screen will be considered a one-pane view!
+The actual number of existing groups does not affect the status of a view as a double or single pane view!
+:::
 
 ### With `<x-pane>`
 
