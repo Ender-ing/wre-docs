@@ -82,3 +82,19 @@
     height: fit-content;
     max-height: unset;
 }
+
+/* Fix tags */
+.tags-wrapper {
+    display: inline-block !important;
+}
+
+/* Fix page navigation links */
+.page-navigation-wrapper {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.next-navigation-wrapper-fix{
+    margin-left: auto;
+}
