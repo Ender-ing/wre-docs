@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 // Define x-layout elements
 export default function XLayout(props){
+  const myRef = useRef(null);
+  useEffect(() => {
+    const scrollEvent = new Event('scroll');
+    if (myRef.current) {
+      myRef.current.addEventListener('scroll', () => {
+        document.dispatchEvent(scrollEvent);
+      });
+    }
+  }, [myRef]);
   return (
-    <x-layout {...props} />
+    <x-layout ref={myRef} {...props} />
   );
 }
 export function XLayoutGroup(props){
