@@ -92,6 +92,7 @@
 /* https://material-web.dev/components/fab/#fab-tokens */
 /* https://m3.material.io/styles/shape/shape-scale-tokens#b09934f1-1b0f-4ce4-ade6-4a1f138add6c */
 .page-navigation-wrapper {
+    display: block;
     position: relative;
     width: fit-content;
     height: fit-content;
