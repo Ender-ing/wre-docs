@@ -71,8 +71,14 @@
 
 /* Fix pane content */
 .x-layout-pane[data-fix*=width] > * {
-    min-width: 100% !important;
+    min-width: 100%;
 }
 .x-layout-pane[data-fix*=margin] > * {
     margin: 0px !important;
+}
+.x-layout-pane[data-fix*=height] > *,
+.x-layout-pane[data-fix*=height-d2] > *,
+.x-layout-pane[data-fix*=height-d2] > * > * {
+    height: fit-content;
+    max-height: unset;
 }

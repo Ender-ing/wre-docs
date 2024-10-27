@@ -17,7 +17,7 @@ export function XLayoutGroup(props){
 export function XLayoutPane(props){
   const {children, ...layoutProps} = props;
   return (
-    <div class="x-layout-pane" {...layoutProps}>
+    <div className="x-layout-pane" {...layoutProps}>
       {children}
     </div>
   );

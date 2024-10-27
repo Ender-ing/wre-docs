@@ -75,6 +75,12 @@ const config = {
       // image: 'img/docusaurus-social-card.jpg',
       navbar: {},
       footer: {},
+      docs: {
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: true,
+        },
+      },
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
@@ -83,6 +89,8 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        defaultLanguage: "txt",
+        additionalLanguages: ['batch', 'bash', 'json', 'markup'], // , 'omniarium'
       },
     }),
 
