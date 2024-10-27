@@ -130,6 +130,10 @@ const config = {
       async: true,
     },
     {
+      src: 'https://resources.ender.ing/web/client/@material/x-effect.js',
+      async: true,
+    },
+    {
       src: 'https://resources.ender.ing/web/client/@vite/tracking.js',
       async: true,
     },
