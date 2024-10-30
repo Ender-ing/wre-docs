@@ -159,6 +159,11 @@ you must first add a rule to specify the reserved range for the project that bel
 organisation!**
 :::
 
+:::tip
+You may use the online [Unicode Hex converter](https://test.ender.ing/tools/unicode-hex-converter/) for help with
+unicode-related values!
+:::
+
 ### Client Content
 
 All content meant to be served in user-friendly settings (e.g. website UI) falls under the following guidelines:
