@@ -125,8 +125,9 @@ Each project may use its own set of programming languages. Generally, each used 
 A content guide defines what is to be considered valid content, depending on the type of said content.
 
 :::danger
-You **must** make sure to follow these strict Unicode Character
-(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) - `\uE000` to `\uF8FF`*) limitations in all of the organisation's projects:
+You **must** make sure to follow these strict Unicode Character limitations
+(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) -
+`\uE000` to `\uF8FF`*) in all of the organisation's projects:
 
 - The characters `\uE0DE` (for the **start**) and `\uE1DE` (for the **end**) are used to mark the
 start and end of a PUA use!
