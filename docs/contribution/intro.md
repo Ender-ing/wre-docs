@@ -36,6 +36,8 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects: -
 - GitHub Repositories: -
   - [/omni](https://github.com/Ender-ing/omni): Contains all planning files for Omniarium
+  - [/wrr-omni](https://github.com/Ender-ing/wrr-omni): Holds basic web root files!
+    (_**omni** subdomain_)
 
 ### Website
 
