@@ -40,7 +40,7 @@ Here is a list of all projects, including their status and relevant resources:
   - [/render-activity](https://github.com/Ender-ing/render-activity): Contains all files and commands used to generate
     final web files (*`BUILD` command and such*)
   - [/Docs](https://github.com/Ender-ing/Docs): Holds all documentation (*development and user documentation*)
-  - [/resources](https://github.com/Ender-ing/resources): Holds shared web resources (_**resources** subdomain_)
+  - [/resources-source](https://github.com/Ender-ing/resources-source): Holds shared web resources (_**resources** subdomain_)
   - [/web-tests](https://github.com/Ender-ing/web-tests): Holds example/test files related to the *render-activity*
     repository, in addition to helpful utilities! (_**test** subdomain_)
   - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal,
