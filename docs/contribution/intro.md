@@ -66,15 +66,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects: -
 - GitHub Repositories: -
 
-### Mail Client
-
-- Status: **Pending**
-- Website(s): [mail.ender.ing](https://mail.ender.ing)
-- Description: A mail client (mainly for internal use)
-- GitHub Projects:
-  - [Web Mail](https://github.com/orgs/Ender-ing/projects/3): Features and progress tracking
-- GitHub Repositories: -
-
 ### Sites Manager
 
 - Status: **Pending**
@@ -82,15 +73,6 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A MOFH sites manager
 - GitHub Projects:
   - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
-- GitHub Repositories: -
-
-### Service Groups
-
-- Status: **Pending**
-- Website(s): [crew.ender.ing](https://crew.ender.ing)
-- Description: An organisation solution for the accounts system (mainly for internal use)
-- GitHub Projects:
-  - [Crews](https://github.com/orgs/Ender-ing/projects/5): Features and progress tracking
 - GitHub Repositories: -
 
 <!--
