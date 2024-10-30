@@ -66,15 +66,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects: -
 - GitHub Repositories: -
 
-### Chats
-
-- Status: **Pending**
-- Website(s): [chat.ender.ing](https://chat.ender.ing)
-- Description: A chatting solution centred around the accounts system
-- GitHub Projects:
-  - [Chats](https://github.com/orgs/Ender-ing/projects/8): Features and progress tracking
-- GitHub Repositories: -
-
 ### Mail Client
 
 - Status: **Pending**
@@ -91,15 +82,6 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A MOFH sites manager
 - GitHub Projects:
   - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
-- GitHub Repositories: -
-
-### Files Editor
-
-- Status: **Pending**
-- Website(s): [tweaker.ender.ing](https://tweaker.ender.ing)
-- Description: A files/FTP editor (mainly for internal use)
-- GitHub Projects:
-  - [NameFiles/FTP Editor](https://github.com/orgs/Ender-ing/projects/4): Features and progress tracking
 - GitHub Repositories: -
 
 ### Service Groups
