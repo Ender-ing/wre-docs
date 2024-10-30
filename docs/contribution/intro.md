@@ -77,6 +77,12 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Accounts System](https://github.com/orgs/Ender-ing/projects/1): Tracking PKI and accounts system progress
 - GitHub Repositories: -
+  - [/wrr-account](https://github.com/Ender-ing/wrr-account): Holds resources related to the
+    account's system frontend!
+    (_**account** subdomain_)
+  - [/wrr-authority](https://github.com/Ender-ing/wrr-authority): Holds resources related to the
+    account's system backend!
+    (_**authority** subdomain_)
 
 ### Links Manager
 
