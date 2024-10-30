@@ -49,14 +49,24 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Repositories:
   - [/render-activity](https://github.com/Ender-ing/render-activity): Contains all files and commands used to generate
     final web files (*`BUILD` command and such*)
-  - [/wre-docs](https://github.com/Ender-ing/wre-docs): Holds all documentation (*development and user documentation*)
-  - [/wrr-resources](https://github.com/Ender-ing/wrr-resources): Holds shared web resources (_**resources** subdomain_)
-  - [/wrr-web-tests](https://github.com/Ender-ing/wrr-web-tests): Holds example/test files related to the *render-activity*
-    repository, in addition to helpful utilities! (_**test** subdomain_)
-  - [/wrr-terminal](https://github.com/Ender-ing/wrr-terminal): Holds resources related to the server's (exposed) web terminal,
-    which is used to maintain the website! (_**terminal** subdomain_)
-  - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all generative web files that
-    have yet to be made public (the naming is a bit confusing - using an old name)
+  - [/wre-docs](https://github.com/Ender-ing/wre-docs): Holds all documentation
+    (*development and user documentation*), in addition to [docusaurus](https://docusaurus.io/)
+    files!
+  - [/wrr-docs](https://github.com/Ender-ing/wrr-docs): Holds all basic root files
+    (_**docs** subdomain_)
+  - [/wrr-resources](https://github.com/Ender-ing/wrr-resources): Holds shared web resources
+    (_**resources** subdomain_)
+  - [/wrr-mta-sts](https://github.com/Ender-ing/wrr-mta-sts): Holds files related to the mailing setup
+    (_**mta-sts** subdomain_)
+  - [/wrr-web-tests](https://github.com/Ender-ing/wrr-web-tests): Holds example/test files related
+    to the *render-activity* repository, in addition to helpful utilities!
+    (_**test** subdomain_)
+  - [/wrr-terminal](https://github.com/Ender-ing/wrr-terminal): Holds resources related to the
+    server's (exposed) web terminal, which is used to maintain the website!
+    (_**terminal** subdomain_)
+  - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all
+    generative web files that have yet to be made public
+    (the naming is a bit confusing - using an old name)
   - [/host](https://github.com/Ender-ing/host) (**private**): Used to keep track of web server file updates
 
 ### Accounts System
@@ -127,6 +137,25 @@ translations!**
 
 :::note
 Documentation is not required to follow language-related content guidelines. It can be written only in English!
+:::
+
+:::danger
+You **must** make sure to follow these strict Unicode Character
+(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) - `\uE000` to `\uF8FF`*) limitations in all the organisation's projects:
+
+- The characters `\uE0DE` (for the **start**) and `\uE1DE` (for the **end**) are used to mark the
+start and end of a PUA use!
+- All characters within the range `\uE0DE` to `\uE1DE` - *excluding the head and tail* - all
+**forbidden** characters! You can never use them!
+- All characters within the range `\uE200` to `\uE2FF` are reserved for web-based usage!
+  (be it tools that build the raw web files, or the web files themselves)
+- All characters within the range `\uE300` to `\uE6FF` are reserved for the *Omniarium transpiler*!
+  (These characters are allowed within *Omniarium source files*, but **only if** you do not surround
+  them with the special PUA markers used by this organisation!)
+
+**If you wish to use *PUA* characters that are not included within any range in the previous rules,
+you must first add a rule to specify the reserved range for the project that belongs to this
+organisation!**
 :::
 
 ### Developer Content
