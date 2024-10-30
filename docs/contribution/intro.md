@@ -42,7 +42,7 @@ Here is a list of all projects, including their status and relevant resources:
   - [/Docs](https://github.com/Ender-ing/Docs): Holds all documentation (*development and user documentation*)
   - [/resources](https://github.com/Ender-ing/resources): Holds shared web resources (_**resources** subdomain_)
   - [/web-tests](https://github.com/Ender-ing/web-tests): Holds example/test files related to the *render-activity*
-    repository (_**test** subdomain_)
+    repository, in addition to helpful utilities! (_**test** subdomain_)
   - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal,
     which is used to maintain the website! (_**terminal** subdomain_)
   - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all generative web files that
