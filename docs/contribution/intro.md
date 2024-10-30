@@ -124,24 +124,9 @@ Each project may use its own set of programming languages. Generally, each used 
 
 A content guide defines what is to be considered valid content, depending on the type of said content.
 
-### Client Content
-
-All content meant to be served in user-friendly settings (e.g. website UI) falls under the following guidelines:
-
-- Content must be served in English, Arabic, and Hebrew. The contribution will not be accepted until served content is
-available in all languages! (*you may ask maintainers to fill in the missing languages for you when you open a pull
-request*)
-- Content language translations should be done by hand! **You are not allowed to use non-proofread machine-generated
-translations!**
-- Illustrations and UI design should follow the [Material Design Guidelines](https://m3.material.io/)!
-
-:::note
-Documentation is not required to follow language-related content guidelines. It can be written only in English!
-:::
-
 :::danger
 You **must** make sure to follow these strict Unicode Character
-(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) - `\uE000` to `\uF8FF`*) limitations in all the organisation's projects:
+(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) - `\uE000` to `\uF8FF`*) limitations in all of the organisation's projects:
 
 - The characters `\uE0DE` (for the **start**) and `\uE1DE` (for the **end**) are used to mark the
 start and end of a PUA use!
@@ -156,6 +141,21 @@ start and end of a PUA use!
 **If you wish to use *PUA* characters that are not included within any range in the previous rules,
 you must first add a rule to specify the reserved range for the project that belongs to this
 organisation!**
+:::
+
+### Client Content
+
+All content meant to be served in user-friendly settings (e.g. website UI) falls under the following guidelines:
+
+- Content must be served in English, Arabic, and Hebrew. The contribution will not be accepted until served content is
+available in all languages! (*you may ask maintainers to fill in the missing languages for you when you open a pull
+request*)
+- Content language translations should be done by hand! **You are not allowed to use non-proofread machine-generated
+translations!**
+- Illustrations and UI design should follow the [Material Design Guidelines](https://m3.material.io/)!
+
+:::note
+Documentation is not required to follow language-related content guidelines. It can be written only in English!
 :::
 
 ### Developer Content
