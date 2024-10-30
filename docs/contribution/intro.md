@@ -15,6 +15,17 @@ contributor's status (member or not), a pull request must fulfill the following 
 
 ## Projects
 
+:::info
+GitHub projects have a naming scheme that follows these rules:
+
+- If the repository contains the root directory of a subdomain, it's prefixed with the string:
+  `"wrr-"`! (*web root repository*)
+- If the repository contains extra website(s) build files, it's prefixed with the string:
+  `"wre-"`! (*web root extras*)
+- Otherwise, the repository will not include a prefix!
+
+:::
+
 Here is a list of all projects, including their status and relevant resources:
 
 ### Omniarium
@@ -35,15 +46,14 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: Most of the website's resources are under this project, except for project-specific pages!
 - GitHub Projects:
   - [General Web UI](https://github.com/orgs/Ender-ing/projects/2): Tracking web client and UI progress
-  - [Documentation](https://github.com/orgs/Ender-ing/projects/6): Tracking documentation progress (*all projects*)
 - GitHub Repositories:
   - [/render-activity](https://github.com/Ender-ing/render-activity): Contains all files and commands used to generate
     final web files (*`BUILD` command and such*)
-  - [/Docs](https://github.com/Ender-ing/Docs): Holds all documentation (*development and user documentation*)
-  - [/resources-source](https://github.com/Ender-ing/resources-source): Holds shared web resources (_**resources** subdomain_)
-  - [/web-tests](https://github.com/Ender-ing/web-tests): Holds example/test files related to the *render-activity*
+  - [/wre-docs](https://github.com/Ender-ing/wre-docs): Holds all documentation (*development and user documentation*)
+  - [/wrr-resources](https://github.com/Ender-ing/wrr-resources): Holds shared web resources (_**resources** subdomain_)
+  - [/wrr-web-tests](https://github.com/Ender-ing/wrr-web-tests): Holds example/test files related to the *render-activity*
     repository, in addition to helpful utilities! (_**test** subdomain_)
-  - [/terminal](https://github.com/Ender-ing/terminal): Holds resources related to the server's (exposed) web terminal,
+  - [/wrr-terminal](https://github.com/Ender-ing/wrr-terminal): Holds resources related to the server's (exposed) web terminal,
     which is used to maintain the website! (_**terminal** subdomain_)
   - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all generative web files that
     have yet to be made public (the naming is a bit confusing - using an old name)
