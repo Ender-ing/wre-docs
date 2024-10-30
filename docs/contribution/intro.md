@@ -51,6 +51,7 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Repositories:
   - [/render-activity](https://github.com/Ender-ing/render-activity): Contains all files and commands used to generate
     final web files (*`BUILD` command and such*)
+  - [/wre-secrets](https://github.com/Ender-ing/wre-secrets): Contains web-related secrets!
   - [/wre-docs](https://github.com/Ender-ing/wre-docs): Holds all documentation
     (*development and user documentation*), in addition to [docusaurus](https://docusaurus.io/)
     files!
