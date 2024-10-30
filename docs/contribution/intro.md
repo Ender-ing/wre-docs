@@ -52,6 +52,8 @@ Here is a list of all projects, including their status and relevant resources:
   - [/wre-docs](https://github.com/Ender-ing/wre-docs): Holds all documentation
     (*development and user documentation*), in addition to [docusaurus](https://docusaurus.io/)
     files!
+  - [/wrr-www](https://github.com/Ender-ing/wrr-www): Holds all basic root files
+    (_**www** subdomain, root domain_)
   - [/wrr-docs](https://github.com/Ender-ing/wrr-docs): Holds all basic root files
     (_**docs** subdomain_)
   - [/wrr-resources](https://github.com/Ender-ing/wrr-resources): Holds shared web resources
@@ -91,6 +93,8 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A links management system used for link redirects, and external redirect security checks!
 - GitHub Projects: -
 - GitHub Repositories: -
+  - [/wrr-links](https://github.com/Ender-ing/wrr-links): Holds all basic root files
+    (_**links** subdomain_)
 
 ### Sites Manager
 
@@ -100,6 +104,8 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
 - GitHub Repositories: -
+  - [/wrr-sites](https://github.com/Ender-ing/wrr-sites): Holds all basic root files
+    (_**sites** subdomain_)
 
 <!--
 ### ?
