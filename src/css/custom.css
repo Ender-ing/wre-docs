@@ -123,3 +123,9 @@
     border: none !important;
     background-color: transparent;
 }
+
+/* Fix docs badge chip */
+md-assist-chip.badge-chip {
+    display: inline-block;
+    overflow: hidden;
+}
