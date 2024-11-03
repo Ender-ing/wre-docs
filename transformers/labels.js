@@ -12,9 +12,9 @@ export default function attacher() {
 }
 
 const BADGES = [
-    'omni!js',
-    'omni!cpp',
-    'omni!java'
+    '(omni-js)',
+    '(omni-cpp)',
+    '(omni-java)'
 ];
 const BADGES_INFO = [
     {
@@ -30,9 +30,9 @@ const BADGES_INFO = [
         href: ''
     }
 ];
-const DEPRECATED = 'deprecated';
-const EXPERIMENTAL = 'experimental';
-const CAREFUL_USE = 'careful';
+const DEPRECATED = '(deprecated)';
+const EXPERIMENTAL = '(experimental)';
+const CAREFUL_USE = '(careful)';
 
 function transformer(tree) {
     visitParents(tree, 'emphasis', visitor);

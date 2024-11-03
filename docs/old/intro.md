@@ -6,14 +6,14 @@ sidebar_position: 1
 
 This repository contains documentation of the development process and projects made by this organisation.
 
-## Testing MD Badges
+## Testing MD Badges _(experimental)_
 
 These are test badges!
 
-_omni!js_
-_omni!cpp_
-_omni!java_
+_(omni-js)_
+_(omni-cpp)_
+_(omni-java)_
 
-_deprecated_
-_experimental_
-_careful_
+_(deprecated)_
+_(experimental)_
+_(careful)_

@@ -125,7 +125,7 @@
 }
 
 /* Fix docs badge chip */
-md-assist-chip.badge-chip {
+.badge-chip {
     display: inline-block;
     overflow: hidden;
 }
