@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import labels from './transformers/labels.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -45,6 +46,9 @@ const config = {
           path: 'docs',
           editUrl:
           'https://github.com/Ender-ing/wre-docs/tree/main/',
+          remarkPlugins: [
+            labels,
+          ],
         },
         blog: {
           showReadingTime: true,
