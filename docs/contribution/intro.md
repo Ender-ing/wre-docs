@@ -142,17 +142,17 @@ A content guide defines what is to be considered valid content, depending on the
 :::danger
 You **must** make sure to follow these strict Unicode Character limitations
 (*for [Private Use Area (PUA) characters](https://en.wikipedia.org/wiki/Private_Use_Areas) -
-`\u100000` to `\u10FFFD`*) in all of the organisation's projects:
+`U+E000` to `U+F8FF`*) in all of the organisation's projects:
 
-- The characters `\u10E0DE` (for the **start**) and `\u10E1DE` (for the **end**) are used to mark the
-start and end of a PUA use!
-- All characters within the range `\u10E0DE` to `\u10E1DE` - *excluding the head and tail* - all
-**forbidden** characters! You can never use them!
-- All characters within the range `\u10E200` to `\u10E2FF` are reserved for web-based usage!
+- The characters `U+E0DE` (for the **start**) and `U+E1DE` (for the **end**) are used to mark the
+start and end of a PUA use - a *PUA wrap* if you will!
+- All characters within the range `U+E0DE` to `U+E1DE` - *excluding the head and tail* - are
+**forbidden** inside of a *PUA wrap*! You can use them outside a *PUA wrap*!
+- All characters within the range `U+E200` to `U+E2FF` are reserved for web-based usage!
   (be it tools that build the raw web files, or the web files themselves)
-- All characters within the range `\u10E300` to `\u10E6FF` are reserved for the *Omniarium transpiler*!
-  (These characters are allowed within *Omniarium source files*, but **only if** you do not surround
-  them with the special PUA markers used by this organisation!)
+- All characters within the range `U+E300` to `U+E6FF` are reserved for the *Omniarium transpiler*!
+  (These characters are allowed within *Omniarium source files*, but **only if** you do not wrap
+  them with the *PUA wrap* used by this organisation!)
 
 **If you wish to use *PUA* characters that are not included within any range in the previous rules,
 you must first add a rule to specify the reserved range for the project that belongs to this
