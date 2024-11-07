@@ -77,3 +77,8 @@ pathname
 -- en.locale (language strings for English)
 -- he.locale (language strings for Hebrew)
 ```
+
+## Subdomain Builds & Tracking
+
+The `version.json` file is used to keep track of the build version and source modification instructions!
+For more information on how the `version.json` file works, check [this documentation](./build.md)!
