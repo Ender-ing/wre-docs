@@ -16,4 +16,5 @@ _(omni-java)_
 
 _(deprecated)_
 _(experimental)_
+_(in-progress)_
 _(careful)_

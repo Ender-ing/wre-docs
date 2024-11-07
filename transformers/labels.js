@@ -32,6 +32,7 @@ const BADGES_INFO = [
 ];
 const DEPRECATED = '(deprecated)';
 const EXPERIMENTAL = '(experimental)';
+const INCOMPLETE = '(in-progress)';
 const CAREFUL_USE = '(careful)';
 
 function transformer(tree) {
@@ -67,6 +68,14 @@ function visitor(node) {
                 node,
                 'Experimental',
                 'Experimental feature (may change in the feature)',
+                "/",
+                ['badge-chip--experimental']
+            );
+        } else if (tag === INCOMPLETE) {
+            updateNode(
+                node,
+                'In-Progress',
+                'Incomplete feature (still being implemented)',
                 "/",
                 ['badge-chip--experimental']
             );
