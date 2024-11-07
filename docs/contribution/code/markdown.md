@@ -1,5 +1,9 @@
 # Markdown Style Guide
 
+:::note
+**((This style guide is incomplete!))**
+:::
+
 ## Tabs and spacing
 
 The use of the normal tab (*also known as a hard tab*) character (`\t`) is not allowed! You may use **two** whitespace

@@ -81,9 +81,3 @@ If you wish to delete generated versioning files, you may use the
 ```batch
 RESET-VERSION.bat
 ```
-
-## Note
-
-After the accounts system is completed, it is planned to provide staff with the ability to access the terminal and
-commit to GitHub using one account, and commands will become restricted according to the user's account permissions.
-For the time being, staff must use GitHub and *htpasswd* credentials!
