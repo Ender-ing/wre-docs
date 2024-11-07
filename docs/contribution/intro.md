@@ -141,16 +141,16 @@ A content guide defines what is to be considered valid content, depending on the
 
 :::danger
 You **must** make sure to follow these strict Unicode Character limitations
-(*for [*Private Use Area (PUA) characters*](https://en.wikipedia.org/wiki/Private_Use_Areas) -
-`\uE000` to `\uF8FF`*) in all of the organisation's projects:
+(*for [Private Use Area (PUA) characters](https://en.wikipedia.org/wiki/Private_Use_Areas) -
+`\u100000` to `\u10FFFD`*) in all of the organisation's projects:
 
-- The characters `\uE0DE` (for the **start**) and `\uE1DE` (for the **end**) are used to mark the
+- The characters `\u10E0DE` (for the **start**) and `\u10E1DE` (for the **end**) are used to mark the
 start and end of a PUA use!
-- All characters within the range `\uE0DE` to `\uE1DE` - *excluding the head and tail* - all
+- All characters within the range `\u10E0DE` to `\u10E1DE` - *excluding the head and tail* - all
 **forbidden** characters! You can never use them!
-- All characters within the range `\uE200` to `\uE2FF` are reserved for web-based usage!
+- All characters within the range `\u10E200` to `\u10E2FF` are reserved for web-based usage!
   (be it tools that build the raw web files, or the web files themselves)
-- All characters within the range `\uE300` to `\uE6FF` are reserved for the *Omniarium transpiler*!
+- All characters within the range `\u10E300` to `\u10E6FF` are reserved for the *Omniarium transpiler*!
   (These characters are allowed within *Omniarium source files*, but **only if** you do not surround
   them with the special PUA markers used by this organisation!)
 
