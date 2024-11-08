@@ -15,6 +15,10 @@ contributor's status (member or not), a pull request must fulfill the following 
 
 ## Projects
 
+:::note
+Archived repositories and resources are not included in this documentation!
+:::
+
 :::info
 GitHub projects have a naming scheme that follows these rules:
 
@@ -69,9 +73,6 @@ Here is a list of all projects, including their status and relevant resources:
   - [/wrr-terminal](https://github.com/Ender-ing/wrr-terminal): Holds resources related to the
     server's (exposed) web terminal, which is used to maintain the website!
     (_**terminal** subdomain_)
-  - [/web-host-root](https://github.com/Ender-ing/web-host-root) (**private**): Contains all
-    generative web files that have yet to be made public
-    (the naming is a bit confusing - using an old name)
   - [/host](https://github.com/Ender-ing/host) (**private**): Used to keep track of web server file updates
 
 ### Accounts System
