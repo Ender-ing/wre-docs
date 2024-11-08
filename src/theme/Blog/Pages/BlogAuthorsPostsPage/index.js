@@ -29,20 +29,15 @@ function Metadata({author}) {
 function ViewAllAuthorsLink() {
   const {authorsListPath} = useBlogMetadata();
   return (
-    <footer className="row docusaurus-mt-lg">
-      <div class="col col--9"></div>
-      <div class="col text--right col--3">
-        <md-elevated-button href={authorsListPath}>
-          <BlogAuthorsListViewAllLabel />
-        </md-elevated-button>
-      </div>
-    </footer>
+    <md-text-button href={authorsListPath}>
+      <BlogAuthorsListViewAllLabel />
+    </md-text-button>
   );
 }
 function Content({author, items, sidebar, listMetadata}) {
   return (
     <BlogLayout sidebar={sidebar}>
-      <header className="x-layout-pane">
+      <header className="x-layout-float">
         <Author as="h1" author={author} />
         {author.description && <p>{author.description}</p>}
         <ViewAllAuthorsLink />
