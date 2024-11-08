@@ -40,7 +40,7 @@ const sidebars = {
   omniariumStd1Sidebar: [
     {
       type: 'html',
-      value: logo("Omniarium", "https://omni.ender.ing/brand/icons/logo.svg"),
+      value: logo("Omniarium 0.1", "https://omni.ender.ing/brand/icons/logo.svg"),
       defaultStyle: false,
     },
     {
