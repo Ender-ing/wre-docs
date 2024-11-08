@@ -40,6 +40,7 @@ function Content({author, items, sidebar, listMetadata}) {
       <header className="x-layout-float">
         <Author as="h1" author={author} />
         {author.description && <p>{author.description}</p>}
+        <br />
         <ViewAllAuthorsLink />
       </header>
       {items.length === 0 ? (
