@@ -16,7 +16,7 @@ function TagLetterEntryItem({letterEntry}) {
           </li>
         ))}
       </ul>
-      <md-divider />
+      <br />
     </article>
   );
 }
