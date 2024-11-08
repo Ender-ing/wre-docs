@@ -99,6 +99,69 @@ const config = {
     }),
 
   plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.webmanifest',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#3f5f90',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-72.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-96.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-128.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-144.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-152.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-192.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-384.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/brand/icons/logo-512.png',
+          },
+        ],
+      },
+    ],
     function githubProfilePlugin(context, options) {
       return {
         name: 'resize-profile-plugin',
