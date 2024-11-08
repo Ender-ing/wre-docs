@@ -98,4 +98,53 @@ Enable or disable (`<Boolean>`) automatic version increments on source code chan
 
 ### `sourceActions` _(in-progress)_
 
+*`before:` Source actions* are instructions that get applied when you run the
+[*collection command*](./../server.md#first-time-use-in-progress),
+while *`after:` Source actions* are instructions that get applied right before the final
+after-cleanup step in the building processing!
+
+:::info
+Paths used **within *source actions*** have special prefixs you can use to specify the start of
+the path:
+
+- `%`: used to refer to the root directory that contains **all** of the subdomains!
+- `%%`: used to refer to the root directory of the **current** subdomains!
+
+:::
+
+#### `after:strict-file-secret-insert` action
+
+This action is used to insert secrets (from `$secrets`) into a file:
+
+```json
+{
+    "type": "after:strict-file-secret-insert",
+    // Source file (the file you want base your final output on)
+    "from": "%%/PATH/TO/the.redacted.file",
+    // Destination of the file's new sensitive version
+    "to": "%%/PATH/TO/the.secret.file"
+}
+```
+
+Currently, the files allowlist for the `after:strict-file-secret-insert` action is:
+
+- ***.redacted.php**
+
+:::danger
+Incorrect configuration or use of the `after:strict-file-secret-insert` action could result in secret
+token/data leaks! Always double check your configuration!
+
+Allowed `to` file names:
+
+- `*.secret`: Ends with the string `.secret`
+- `secret.*`: Starts with the string `secret.`
+- `*.secret.*`: Contains the string `.secret.` (usually in the middle of a string)
+
+**These *secret* files should never be uploaded to public repositories! They should only exist in
+the final codebase build!**
+
+:::
+
+#### `before:add-github-dependency` action _(in-progress)_
+
 ...
