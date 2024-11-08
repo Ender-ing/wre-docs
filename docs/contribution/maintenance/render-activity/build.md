@@ -4,13 +4,13 @@ sidebar_position: 7
 
 # Subdomain Builds & Versioning
 
-The [`version.json` file](https://github.com/Ender-ing/render-activity/blob/main/version.json)
+The [`roots.manifest.json` file](https://github.com/Ender-ing/render-activity/blob/main/roots.manifest.json)
 is used to keep track of versioning information, and build-time source modification actions!
 
 :::tip
 You can always check out the
-[`version.base.jsonc` file](https://github.com/Ender-ing/render-activity/blob/main/version.base.jsonc)
-to see an example of the proper structure for the `version.json` file!
+[`roots.manifest.base.jsonc` file](https://github.com/Ender-ing/render-activity/blob/main/roots.manifest.base.jsonc)
+to see an example of the proper structure for the `roots.manifest.json` file!
 :::
 
 ## Global Values
