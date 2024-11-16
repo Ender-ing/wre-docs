@@ -91,8 +91,8 @@ const config = {
         respectPrefersColorScheme: false,
       },
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.oneLight,
+        darkTheme: prismThemes.oneDark,
         defaultLanguage: "txt",
         additionalLanguages: ['batch', 'bash', 'json', 'markup'], // , 'omniarium'
       },
