@@ -28,7 +28,7 @@ These tools are used by the supported extension for your editor.
 
 Omni heavily relies on custom libraries to enable specialised target transpilation. Therefore, a
 proper libraries manager would be needed in order to facilitate the installation and management
-of Omni libraries. (this also includes a local external dependencies manager)
+of Omni libraries. (*this also includes a local external dependencies manager*)
 
 ### Transpiler _(in-progress)_
 
