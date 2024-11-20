@@ -4,26 +4,24 @@ sidebar_position: 1
 
 # Introduction
 
-Omniarium - or *Omni* - is an open-source multi-targeted metaprogramming language whose sole purpose
-is to enable writing one flexible source-code instance meant to produce ready-for-use high-level
-code for multiple targets (be it platforms, frameworks, or any of such)!
+Omniarium - or *Omni* - is an open-source multi-targeted metaprogramming language whose sole purpose is to enable
+writing one flexible source-code instance meant to produce ready-for-use high-level code for multiple targets
+(be it platforms, frameworks, or any of such)!
 
 :::note
-This language is still in its basic initial planning phase! Any and all suggestions could help shape
-and direct this language to be a better aid for your needs, do not hesitate to provide any sort of
-criticism!
+This language is still in its basic initial planning phase! Any and all suggestions could help shape and direct this
+language to be a better aid for your needs, do not hesitate to provide any sort of criticism!
 :::
 
 ## Getting Started _(in-progress)_
 
-You may start with the [Tutorial](./tutorial/installs.md), which guides you through the process of
-developing with Omni.
+You may start with the [Tutorial](./tutorial/installs.md), which guides you through the process of developing with Omni.
 
-You may also browse the [Examples](#getting-started) section to quickly get a better understanding
-of the language.
+You may also browse the [Examples](#whats-in-this-documentation-in-progress) section to quickly get a better
+understanding of the language.
 
-For more in-depth documentation, you may refer to the [Development](#getting-started) section
-and the [Technical](#getting-started) section!
+For more in-depth documentation, you may refer to the [Development](#whats-in-this-documentation-in-progress) section
+and the [Technical](#whats-in-this-documentation-in-progress) section!
 
 ## What's in this documentation? _(in-progress)_
 
