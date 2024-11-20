@@ -2,8 +2,7 @@
 
 ## Tabs and spacing
 
-The use of the normal tab (*also known as a hard tab*) character (`\t`) is not allowed! You may use
-**four** whitespace
+The use of the normal tab (*also known as a hard tab*) character (`\t`) is not allowed! You may use **four** whitespace
 characters instead of tabs to space code!
 
 ```txt
@@ -14,8 +13,7 @@ characters instead of tabs to space code!
 
 ## File start
 
-If the used language supports comments, it is recommended to start the file with a comment that
-specifies its use!
+If the used language supports comments, it is recommended to start the file with a comment that specifies its use!
 
 ## Max line length
 
