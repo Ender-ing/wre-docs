@@ -94,7 +94,7 @@ function visitor(node) {
 // Update nodes!
 const updateNode = (node, name, description, href, classNames = []) => {
     // Change tag name to "md-assist-chip"
-    node.type = 'element';
+    node.type = 'emphasis'; //'element';
     node.tagName = 'md-assist-chip';
     // ^^ For some reason, this doesn't work! ^^
     // It only renames the element's tag to "div" (this is caused by setting the type to 'element')
@@ -110,5 +110,5 @@ const updateNode = (node, name, description, href, classNames = []) => {
             tabindex: "-1"
         }
     };
-    node.children[0].value = name;
+    node.children[0].value = `(${name})`; // tmp
 };
