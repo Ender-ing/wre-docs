@@ -1,7 +1,7 @@
 Prism.languages.omniarium = {
     'comment': [
         {
-            pattern: /;;;[\s\S]*?(?:;;;|$)/,
+            pattern: /;;\?[\s\S]*?(?:\?;;|$)/,
             greedy: true
         },
         {
@@ -13,12 +13,28 @@ Prism.languages.omniarium = {
         pattern: /(\$[\w]+)\b/
     },
     "constant": {
-        pattern: /\b(_[\w]+)\b/
+        pattern: /(#[\w]+)\b/
     },
     "variable": {
         pattern: /\b([a-z][\w]*)\b/
     },
     "type": {
         pattern: /\b([A-Z][\w]*)\b/
-    }
+    },
+    "number": {
+        pattern: /-?((\d+\.\d*([eE][-+]?\d+)?)|(\d*\.\d+([eE][-+]?\d+)?)|(\d+([eE][-+]?\d+)?))/
+    },
+    "string": [
+        {
+            pattern: /"(?:\\.|[^"\\])*("?)/,
+            greedy: true
+        },
+        {
+            pattern: /`(?:\\.|[^`\\])*(`?)/,
+            greedy: true
+        },
+        {
+            pattern: /'[^\n]*?('|$)/
+        }
+    ]
 };
