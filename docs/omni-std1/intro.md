@@ -35,7 +35,7 @@ There are the different documentation categories:
 - **Development**: Development guides.
 - **Testing And Debugging**: How to debug Omni projects.
 - **Technical**: Technical details regarding Omni, and its related tools. (If you're creating a new Omni library/implementation, you need to read this!)
-- **Contributing**: How to contribute to Omni.
+- **Contributing**: How to [contribute to the Omniarium language!](./contribute/intro.md).
 
 ## Help and Issues
 
