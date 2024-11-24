@@ -17,3 +17,15 @@ important:
   label: Important
   permalink: /important
   description: Important updates!
+
+web-related:
+  label: Web
+  permalink: /web-related
+  description: Related to the web presence of Ender.ing!
+
+# Projects
+
+project-omniarium:
+  label: Omniarium
+  permalink: /project-omniarium
+  description: Related to the Omniarium computer language!
