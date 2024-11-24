@@ -46,7 +46,7 @@ Here is a list of all projects, including their status and relevant resources:
 ### PolarFrankie
 
 - Status: **In progress**
-- Website(s): [omni.ender.ing](https://omni.ender.ing)
+- Website(s): [frankie.ender.ing](https://frankie.ender.ing)
 - Description: A programming language designed for a specialised transpiler
 - GitHub Projects: -
 - GitHub Repositories: -
