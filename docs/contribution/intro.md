@@ -36,7 +36,7 @@ Here is a list of all projects, including their status and relevant resources:
 
 - Status: **In progress**
 - Website(s): [omni.ender.ing](https://omni.ender.ing)
-- Description: A programming language designed for a specialised transpiler
+- Description: Write once, run everywere! Use the same codebase for multiple common targets!
 - GitHub Projects: -
 - GitHub Repositories: -
   - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
@@ -47,7 +47,7 @@ Here is a list of all projects, including their status and relevant resources:
 
 - Status: **In progress**
 - Website(s): [frankie.ender.ing](https://frankie.ender.ing)
-- Description: A programming language designed for a specialised transpiler
+- Description: A command line scripting language with safety and presentability in mind!
 - GitHub Projects: -
 - GitHub Repositories: -
   - [/frankie](https://github.com/Ender-ing/frankie): Contains all planning & language files for PolarFrankie
