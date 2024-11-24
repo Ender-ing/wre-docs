@@ -82,7 +82,8 @@ The *sticky* group `view` attribute will be ignored if the screen *width* does n
 :::
 
 :::info
-If the display is a medium, and `<x-layout>` has the attribute `[view=collapse]`, the screen will be considered a one-pane view!
+If the display is a medium, and `<x-layout>` has the attribute `[view=collapse]`, the screen will be considered a
+one-pane view!
 The actual number of existing groups does not affect the status of a view as a double or single pane view!
 :::
 
@@ -95,4 +96,23 @@ You can use the `view` attribute to make an `<x-pane>` element take up the full 
     <!-- Note that the pane element will only take enough space to not ruin the "space area margin",
         but it can also extend past its full hight -->
 </x-pane>
+```
+
+## `<x-content>` element
+
+The `<x-content>` element is used to separate a group of elements visually from other elements inside
+`<x-pane>`/`<x-float>` elements!
+
+### `margin` attribute
+
+Used to add margin to direct children:
+
+- `"vertical"`: Adds vertical margin
+- `"horizontal"`: Adds horizontal margin
+
+```xml
+<x-content margin="vertical horizontal">
+    <!-- In this example, all the direct children of this <x-content> element will have an added
+    vertical and horizontal margin! -->
+</x-content>
 ```
