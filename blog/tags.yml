@@ -29,3 +29,8 @@ project-omniarium:
   label: Omniarium
   permalink: /project-omniarium
   description: Related to the Omniarium computer language!
+
+project-polar-frankie:
+  label: PolarFrankie
+  permalink: /project-polar-frankie
+  description: Related to the PolarFrankie command line scripting language!
