@@ -23,4 +23,4 @@ No actual programs have actually been built yet!
 ### VSCode _(in-progress)_
 
 You may install the VSCode extension from the
-[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Endering.polarfrankie-std1)!
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Endering.polarfrankie)!
