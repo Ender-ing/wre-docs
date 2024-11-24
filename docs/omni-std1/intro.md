@@ -17,11 +17,10 @@ language to be a better aid for your needs, do not hesitate to provide any sort 
 
 You may start with the [Tutorial](./tutorial/installs.md), which guides you through the process of developing with Omni.
 
-You may also browse the [Examples](#whats-in-this-documentation-in-progress) section to quickly get a better
-understanding of the language.
+You may also browse the [Examples](#introduction) section to quickly get a better understanding of the language.
 
-For more in-depth documentation, you may refer to the [Development](#whats-in-this-documentation-in-progress) section
-and the [Technical](#whats-in-this-documentation-in-progress) section!
+For more in-depth documentation, you may refer to the [Development](#introduction) section and the
+[Technical](#introduction) section!
 
 ## What's in this documentation? _(in-progress)_
 
