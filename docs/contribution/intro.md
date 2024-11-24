@@ -39,9 +39,20 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A programming language designed for a specialised transpiler
 - GitHub Projects: -
 - GitHub Repositories: -
-  - [/omni](https://github.com/Ender-ing/omni): Contains all planning files for Omniarium
+  - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
   - [/wrr-omni](https://github.com/Ender-ing/wrr-omni): Holds basic web root files!
     (_**omni** subdomain_)
+
+### PolarFrankie
+
+- Status: **In progress**
+- Website(s): [omni.ender.ing](https://omni.ender.ing)
+- Description: A programming language designed for a specialised transpiler
+- GitHub Projects: -
+- GitHub Repositories: -
+  - [/frankie](https://github.com/Ender-ing/frankie): Contains all planning & language files for PolarFrankie
+  - [/wrr-frankie](https://github.com/Ender-ing/wrr-frankie): Holds basic web root files!
+    (_**frankie** subdomain_)
 
 ### Website
 
