@@ -32,6 +32,7 @@ export default function Home() {
                         <md-elevated-button href="/docs/old/intro">Old Docs</md-elevated-button> <br/>
                         <md-elevated-button href="/docs/contribution/intro">Contribution Docs</md-elevated-button> <br/>
                         <md-elevated-button href="/docs/omni-std1/intro">Omniarium Standard Edition 0.1 Docs</md-elevated-button> <br/>
+                        <md-elevated-button href="/docs/frankie/intro">PolarFrankie Docs</md-elevated-button> <br/>
                         <md-elevated-button href="/blog">Blog</md-elevated-button> <br/>
                     </XLayoutPane>
                 </XLayoutGroup>
