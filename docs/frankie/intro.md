@@ -14,24 +14,22 @@ language to be a better aid for your needs, do not hesitate to provide any sort 
 
 ## Getting Started _(in-progress)_
 
-You may start with the [Tutorial](./tutorial/installs.md), which guides you through the process of writing command line scripts
-with Frankie.
+You may start with the [Tutorial](./tutorial/installs.md), which guides you through the process of writing command line
+scripts with Frankie.
 
-You may also browse the [Examples](#introduction) section to quickly get a better understanding of the language.
+You may also browse the [built-in libraries](./development/library/library.md) section to get a better understanding of
+the available commands.
 
-For more in-depth documentation, you may refer to the [Development](#introduction) section and the
-[Technical](#introduction) section!
+For more in-depth documentation of the language's inner workings, you may refer to the
+[Language rules](./development/language/language.md) section!
 
 ## What's in this documentation? _(in-progress)_
 
 There are the different documentation categories:
 
-- **Tutorial**: A guide on how to [create your first command line script with Frankie](#introduction).
-- **Best Practices**: Rules to keep in mind when developing with Frankie.
-- **Examples**: References to add to your Frankie scripts.
-- **Development**: Development guides.
-- **Technical**: Technical details regarding Frankie, and its related tools.
-- **Contributing**: How to [contribute to the PolarFrankie scripting language!](./contribute/intro.md).
+- **Tutorial**: A guide on how to [create your first command line script](./tutorial/installs.md).
+- **Development**: Development guides for the [core language and related libraries](./development/development.md).
+- **Contributing**: How to [contribute to the PolarFrankie scripting language!](./contribute/contribute.md).
 
 ## Help and Issues
 
