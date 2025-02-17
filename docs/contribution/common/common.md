@@ -11,4 +11,5 @@ commonly used software and extensions used to develop our products!
 
 - ~~JS and the WEB~~ *soon*
 - [C/C++](./c.md)
+- [Java](./java.md)
 - ~~Android~~ *soon*
