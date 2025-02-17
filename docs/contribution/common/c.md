@@ -15,8 +15,6 @@ and follow the
   pacman -S mingw-w64-ucrt-x86_64-gcc
   # Check for package updates
   pacman -Syu  # You might need to run this command twice.  If it asks to close some programs, say yes and rerun.
-  # Install "make"
-  pacman -S make
   ```
 
 - Linux: [C/C++ installation guide](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/)
@@ -29,3 +27,12 @@ You can download ***CMake binaries/executables*** for your specific platform fro
 :::note
 If you are a Windows user, make sure to install cmake on Windows itself; not on your virtual machine!
 :::
+
+If you are using MSYS2, run the following commands to install CMake:
+
+```bash
+# Install "cmake"
+pacman -S mingw-w64-x86_64-cmake
+# Install "make"
+pacman -S make
+```
