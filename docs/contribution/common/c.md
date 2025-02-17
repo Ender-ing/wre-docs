@@ -8,13 +8,13 @@ and follow the
 [Visual Studio and C/C++ support guide](https://learn.microsoft.com/en-us/cpp/build/vscpp-step-0-installation)
 - Windows (Linux on Windows): Install the [latest version of MSYS2](https://www.msys2.org/)
 
-  Make sure to run these commands on your first run:
+  Make sure to run these commands on your first run (in *MSYS2 MINGW64*):
 
   ```bash
-  # Install some basic GCC tools
-  pacman -S mingw-w64-ucrt-x86_64-gcc
   # Check for package updates
   pacman -Syu  # You might need to run this command twice.  If it asks to close some programs, say yes and rerun.
+  # Install some basic GCC tools
+  pacman -S mingw-w64-x86_64-gcc pacman mingw-w64-x86_64-make mingw-w64-x86_64-gdb
   ```
 
 - Linux: [C/C++ installation guide](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/)
