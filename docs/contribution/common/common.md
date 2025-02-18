@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Common Software and Extensions
 
 When creating software, be it for the web or certain platforms, developers use common building and helping tools in
@@ -13,3 +9,4 @@ commonly used software and extensions used to develop our products!
 - [C/C++](./c.md)
 - [Java](./java.md)
 - ~~Android~~ *soon*
+- [General Programs and Commands](./general.md)
