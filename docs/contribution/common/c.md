@@ -19,6 +19,13 @@ and follow the
 
 - Linux: [C/C++ installation guide](https://www.cyberciti.biz/faq/howto-compile-and-run-c-cplusplus-code-in-linux/)
 
+  It is also recommended to install the following libraries:
+
+  ```bash
+  sudo apt install build-essential # Needed to install the g++ compiler command!
+  sudo apt install libboost-all-dev # Boost C++ Libraries
+  ```
+
 ## CMake
 
 CMake is used to enable a uniform building experience across different platforms.
@@ -35,4 +42,17 @@ If you are using MSYS2, run the following commands to install CMake:
 pacman -S mingw-w64-x86_64-cmake
 # Install "make"
 pacman -S make
+```
+
+For each platform, the generated build files will be targeted towards different building tools:
+
+- Windows (using VS): The generated files are for a Visual Studio project
+- Windows (using MSYS2): The generated files are for the Ninja builder
+- ~~Linux: (unsure?)~~
+
+You might need to look up how to initate the building stage specificly for your platform's building tools!
+But, in most cases, you can get away with running this command:
+
+```bash
+cmake --build . --config Release # Release/Beta
 ```
