@@ -15,7 +15,7 @@ Currently, the only aspect of Omniarium that is under development is the syntax 
 (this is done to avoid being forced to rewrite the whole Omni development kit later down the line)
 
 For now, I'll also work on another project that also requires the use of these technologies.
-(I'll be my Frankenstein for ANTLR4 and C++)
+(It'll be my Frankenstein for ANTLR4 and C++)
 
 This new project is a transpiler for command line scripts that compiles the new custom *PolarFrankie command line
 scripting language* into *Bash* and *Batch* script files that are safe to run as building scripts for projects.
