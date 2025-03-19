@@ -37,7 +37,7 @@ Not completed! ([Track progress...](https://github.com/Ender-ing/render-activity
 After logging into the [server terminal](https://terminal.ender.ing/), you may use the most fitting command to
 publish changes:
 
-![Server Terminal](./images/terminal.png)
+![Server Terminal](./images/server-terminal.png)
 
 ### Server-side changes
 
