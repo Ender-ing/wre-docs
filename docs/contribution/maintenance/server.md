@@ -46,7 +46,7 @@ If the changes within the codebase only relate to server-side code, you may use 
 ### Client-side changes
 
 If the changes within the codebase affect client-side code (*JavaScript, CSS, Display files, etc.*), you may use
-the `web` command to fetch changes and purge the global cache.
+the `full` command to fetch changes and purge the global cache.
 
 :::tip
 If you believe that the client-side changes are not large, or in case of server-side updates, you may just use
