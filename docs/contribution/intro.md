@@ -38,7 +38,7 @@ Here is a list of all projects, including their status and relevant resources:
 - Website(s): [omni.ender.ing](https://omni.ender.ing)
 - Description: Write once, run everywere! Use the same codebase for multiple common targets!
 - GitHub Projects: -
-- GitHub Repositories: -
+- GitHub Repositories:
   - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
   - [/wrr-omni](https://github.com/Ender-ing/wrr-omni): Holds basic web root files!
     (_**omni** subdomain_)
@@ -49,10 +49,19 @@ Here is a list of all projects, including their status and relevant resources:
 - Website(s): [frankie.ender.ing](https://frankie.ender.ing)
 - Description: A command line scripting language with safety and presentability in mind!
 - GitHub Projects: -
-- GitHub Repositories: -
+- GitHub Repositories:
   - [/frankie](https://github.com/Ender-ing/frankie): Contains all planning & language files for PolarFrankie
   - [/wrr-frankie](https://github.com/Ender-ing/wrr-frankie): Holds basic web root files!
     (_**frankie** subdomain_)
+
+### Purrse
+
+- Status: **In progress**
+- Website(s): -
+- Description: A tracking app meant to help you "purrse" your financial goals!
+- GitHub Projects: -
+- GitHub Repositories:
+  - [/purrse](https://github.com/Ender-ing/purrse): Contains all planning & codebase files for Purrse
 
 ### Website
 
@@ -94,7 +103,7 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A PKI-based accounts system meant for use across all projects/services
 - GitHub Projects:
   - [Accounts System](https://github.com/orgs/Ender-ing/projects/1): Tracking PKI and accounts system progress
-- GitHub Repositories: -
+- GitHub Repositories:
   - [/wrr-account](https://github.com/Ender-ing/wrr-account): Holds resources related to the
     account's system frontend!
     (_**account** subdomain_)
@@ -108,7 +117,7 @@ Here is a list of all projects, including their status and relevant resources:
 - Website(s): [links.ender.ing](https://links.ender.ing)
 - Description: A links management system used for link redirects, and external redirect security checks!
 - GitHub Projects: -
-- GitHub Repositories: -
+- GitHub Repositories:
   - [/wrr-links](https://github.com/Ender-ing/wrr-links): Holds all basic root files
     (_**links** subdomain_)
 
@@ -119,7 +128,7 @@ Here is a list of all projects, including their status and relevant resources:
 - Description: A MOFH sites manager
 - GitHub Projects:
   - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
-- GitHub Repositories: -
+- GitHub Repositories:
   - [/wrr-sites](https://github.com/Ender-ing/wrr-sites): Holds all basic root files
     (_**sites** subdomain_)
 
