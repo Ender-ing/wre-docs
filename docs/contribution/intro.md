@@ -58,7 +58,7 @@ Here is a list of all projects, including their status and relevant resources:
 
 - Status: **In progress**
 - Website(s): -
-- Description: A tracking app meant to help you "purrse" your financial goals!
+- Description: A tracking app meant to help you "purrrsue" your financial goals!
 - GitHub Projects: -
 - GitHub Repositories:
   - [/purrse](https://github.com/Ender-ing/purrse): Contains all planning & codebase files for Purrse
