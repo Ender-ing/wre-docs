@@ -54,15 +54,6 @@ Here is a list of all projects, including their status and relevant resources:
   - [/wrr-frankie](https://github.com/Ender-ing/wrr-frankie): Holds basic web root files!
     (_**frankie** subdomain_)
 
-### Purrse
-
-- Status: **In progress**
-- Website(s): -
-- Description: A tracking app meant to help you "purrrsue" your financial goals!
-- GitHub Projects: -
-- GitHub Repositories:
-  - [/purrse](https://github.com/Ender-ing/purrse): Contains all planning & codebase files for Purrse
-
 ### Website
 
 - Status: **In progress**
@@ -131,6 +122,15 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Repositories:
   - [/wrr-sites](https://github.com/Ender-ing/wrr-sites): Holds all basic root files
     (_**sites** subdomain_)
+
+### Purrse
+
+- Status: **Temporarily Discontinued**
+- Website(s): -
+- Description: A tracking app meant to help you "purrrsue" your financial goals!
+- GitHub Projects: -
+- GitHub Repositories:
+  - [/purrse (archived)](https://github.com/Ender-ing/purrse): Contains all planning & codebase files for Purrse
 
 <!--
 ### ?
