@@ -86,7 +86,7 @@ Here is a list of all projects, including their status and relevant resources:
 
 ### Omniarium
 
-- Status: **Temporarily Haulted**
+- Status: **Temporarily Halted**
 - Website(s): [omni.ender.ing](https://omni.ender.ing)
 - Description: Write once, run everywere! Use the same codebase for multiple common targets!
 - GitHub Projects: -
