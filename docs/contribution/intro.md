@@ -32,17 +32,6 @@ GitHub projects have a naming scheme that follows these rules:
 
 Here is a list of all projects, including their status and relevant resources:
 
-### Omniarium
-
-- Status: **In progress**
-- Website(s): [omni.ender.ing](https://omni.ender.ing)
-- Description: Write once, run everywere! Use the same codebase for multiple common targets!
-- GitHub Projects: -
-- GitHub Repositories:
-  - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
-  - [/wrr-omni](https://github.com/Ender-ing/wrr-omni): Holds basic web root files!
-    (_**omni** subdomain_)
-
 ### PolarFrankie
 
 - Status: **In progress**
@@ -51,8 +40,6 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects: -
 - GitHub Repositories:
   - [/frankie](https://github.com/Ender-ing/frankie): Contains all planning & language files for PolarFrankie
-  - [/wrr-frankie](https://github.com/Ender-ing/wrr-frankie): Holds basic web root files!
-    (_**frankie** subdomain_)
 
 ### Website
 
@@ -95,33 +82,16 @@ Here is a list of all projects, including their status and relevant resources:
 - GitHub Projects:
   - [Accounts System](https://github.com/orgs/Ender-ing/projects/1): Tracking PKI and accounts system progress
 - GitHub Repositories:
-  - [/wrr-account](https://github.com/Ender-ing/wrr-account): Holds resources related to the
-    account's system frontend!
-    (_**account** subdomain_)
-  - [/wrr-authority](https://github.com/Ender-ing/wrr-authority): Holds resources related to the
-    account's system backend!
-    (_**authority** subdomain_)
+  *none*
 
-### Links Manager
+### Omniarium
 
-- Status: **Pending**
-- Website(s): [links.ender.ing](https://links.ender.ing)
-- Description: A links management system used for link redirects, and external redirect security checks!
+- Status: **Temporarily Paused**
+- Website(s): [omni.ender.ing](https://omni.ender.ing)
+- Description: Write once, run everywere! Use the same codebase for multiple common targets!
 - GitHub Projects: -
 - GitHub Repositories:
-  - [/wrr-links](https://github.com/Ender-ing/wrr-links): Holds all basic root files
-    (_**links** subdomain_)
-
-### Sites Manager
-
-- Status: **Pending**
-- Website(s): [sites.ender.ing](https://sites.ender.ing)
-- Description: A MOFH sites manager
-- GitHub Projects:
-  - [Sites Hosting](https://github.com/orgs/Ender-ing/projects/7): Features and progress tracking
-- GitHub Repositories:
-  - [/wrr-sites](https://github.com/Ender-ing/wrr-sites): Holds all basic root files
-    (_**sites** subdomain_)
+  - [/omni](https://github.com/Ender-ing/omni): Contains all planning & language files for Omniarium
 
 ### Purrse
 
